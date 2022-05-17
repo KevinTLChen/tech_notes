@@ -1,0 +1,280 @@
+{
+	"name": "buffers",
+	"versions": {
+		"0.0.1": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.0.1",
+			"repository": "http://github.com/substack/node-buffers.git",
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"_id": "buffers@0.0.1",
+			"_engineSupported": true,
+			"_npmVersion": "0.2.16",
+			"_nodeVersion": "v0.3.8-pre",
+			"directories": {},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "af02dd9d29723db67bf69ade28b6881e5ae1b39a",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.0.1.tgz",
+				"integrity": "sha512-KynEcpVYW7Ss5c1rR4geFnFYV5090BlAzJ9Uv2jSEz0DtWfeR/7P7CZ0x0CMx9YrWJ7bonixCKw5nbcp8cVf9w=="
+			},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.0.2",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/node-buffers.git"
+			},
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "buffers@0.0.2",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.1rc9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "4d5db52dd754c66105f811eba0aa03f1438f1076",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.0.2.tgz",
+				"integrity": "sha512-mYULM4LSck4YFXpF9da4cc1xS9l/Zewj4KGftACs6IH4zL3wZmIeuBOzIvWITmDw4YlYfdSaSJzZCfDUIOHUYA=="
+			},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.0.3",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/node-buffers.git"
+			},
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "buffers@0.0.3",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.1rc9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "bf9038fda7cad84ab178bfbdae294f7a68da449b",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.0.3.tgz",
+				"integrity": "sha512-EH6WS5KjfFIpxV3jsNxSq+DXsqQEXby54jL2tmf3908rqeniVmnf1F7v0Piu0Rhu8Zs799WxRc8lCEWzGgStEg=="
+			},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.0.4",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/node-buffers.git"
+			},
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "buffers@0.0.4",
+			"_engineSupported": true,
+			"_npmVersion": "1.0.1rc9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "f30f1b236cc4760fb3ce26f15d0d41bb137568d4",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.0.4.tgz",
+				"integrity": "sha512-XfG8wvoDgq50eWdEhpSJWLvvQfk6RyuQnMD+yybLPREWcks5rEAmmc42jbGuN+mYJcSev7dRoroMVQny+VoGdQ=="
+			},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.1.0",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/node-buffers.git"
+			},
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"_id": "buffers@0.1.0",
+			"dependencies": {},
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.10",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "5a08e9366c9d160e4c135e77064393a5c0d8db73",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.1.0.tgz",
+				"integrity": "sha512-tZqGzTu3GC9YS5w7ly+Wyb3vnfzCcVtRf4kNa0iZpjabrsWgUcNHhhSnhjRR6AsH5usFQVG6lQpNuhti3BgbrQ=="
+			},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "buffers",
+			"description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
+			"version": "0.1.1",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/node-buffers.git"
+			},
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"main": "./index",
+			"scripts": {
+				"test": "expresso"
+			},
+			"engines": {
+				"node": ">=0.2.0"
+			},
+			"_npmJsonOpts": {
+				"file": "/home/substack/.npm/buffers/0.1.1/package/package.json",
+				"wscript": false,
+				"contributors": false,
+				"serverjs": false
+			},
+			"_id": "buffers@0.1.1",
+			"dependencies": {},
+			"devDependencies": {},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.30",
+			"_nodeVersion": "v0.4.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb",
+				"tarball": "https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz",
+				"integrity": "sha512-9q/rDEGSb/Qsvv2qvzIzdluL5k7AaJOTrw23z9reQthrbF7is4CtlT0DXyO1oei2DCp4uojjzQ7igaSHp1kAEQ=="
+			},
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-16T06:07:33.230Z",
+		"created": "2011-02-06T12:28:07.644Z",
+		"0.0.1": "2011-02-06T12:28:07.983Z",
+		"0.0.2": "2011-04-28T04:36:43.582Z",
+		"0.0.3": "2011-05-01T07:59:03.851Z",
+		"0.0.4": "2011-05-01T08:37:09.246Z",
+		"0.1.0": "2011-06-30T01:24:43.791Z",
+		"0.1.1": "2011-10-12T23:33:33.118Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.1.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"28c8193bbe5b48238ef1319a57da9747\"",
+			"fetched": 1652762020211
+		}
+	},
+	"_distfiles": {
+		"buffers-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.0.1.tgz",
+			"sha": "af02dd9d29723db67bf69ade28b6881e5ae1b39a",
+			"registry": "npmjs"
+		},
+		"buffers-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.0.2.tgz",
+			"sha": "4d5db52dd754c66105f811eba0aa03f1438f1076",
+			"registry": "npmjs"
+		},
+		"buffers-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.0.3.tgz",
+			"sha": "bf9038fda7cad84ab178bfbdae294f7a68da449b",
+			"registry": "npmjs"
+		},
+		"buffers-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.0.4.tgz",
+			"sha": "f30f1b236cc4760fb3ce26f15d0d41bb137568d4",
+			"registry": "npmjs"
+		},
+		"buffers-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.1.0.tgz",
+			"sha": "5a08e9366c9d160e4c135e77064393a5c0d8db73",
+			"registry": "npmjs"
+		},
+		"buffers-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz",
+			"sha": "b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"buffers-0.1.1.tgz": {
+			"shasum": "b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb"
+		}
+	},
+	"_rev": "2-d02dd1c29e0f43d2",
+	"_id": "buffers",
+	"readme": ""
+}

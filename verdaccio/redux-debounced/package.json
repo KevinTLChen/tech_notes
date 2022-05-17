@@ -1,0 +1,421 @@
+{
+	"name": "redux-debounced",
+	"versions": {
+		"0.1.0": {
+			"name": "redux-debounced",
+			"version": "0.1.0",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-istanbul cover _mocha && babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-istanbul": "^0.3.20",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "267281ceb84a3afe542a2af72e281b60e2d81f90",
+			"_id": "redux-debounced@0.1.0",
+			"_shasum": "feef04a6c73a054909928de8dc8f33c15e085bca",
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_nodeVersion": "2.2.1",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "feef04a6c73a054909928de8dc8f33c15e085bca",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.1.0.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "redux-debounced",
+			"version": "0.1.1",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-istanbul cover _mocha && babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-istanbul": "^0.3.20",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "8bcfea6b2bdea205b7970b1e9e18cc342bbe63c4",
+			"_id": "redux-debounced@0.1.1",
+			"_shasum": "4fcf091036e0c1cc4b5350c3b80bbfcb597b1cde",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4fcf091036e0c1cc4b5350c3b80bbfcb597b1cde",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.1.1.tgz"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "redux-debounced",
+			"version": "0.2.0",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-node node_modules/.bin/babel-istanbul cover _mocha && babel-node node_modules/.bin/babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel-cli": "^6.6.5",
+				"babel-core": "^6.6.5",
+				"babel-istanbul": "^0.6.1",
+				"babel-plugin-transform-object-rest-spread": "^6.6.5",
+				"babel-preset-es2015": "^6.6.0",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "10c7c4cd3859d37f4b5aa5608651a16ee27b0021",
+			"_id": "redux-debounced@0.2.0",
+			"_shasum": "94011ee2ede4ff7556f24e8ed67724de3038e51e",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"dist": {
+				"shasum": "94011ee2ede4ff7556f24e8ed67724de3038e51e",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/redux-debounced-0.2.0.tgz_1459916524555_0.5126316351816058"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "redux-debounced",
+			"version": "0.3.0",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-node node_modules/.bin/babel-istanbul cover _mocha && babel-node node_modules/.bin/babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel-cli": "^6.6.5",
+				"babel-core": "^6.6.5",
+				"babel-istanbul": "^0.6.1",
+				"babel-plugin-transform-object-rest-spread": "^6.6.5",
+				"babel-preset-es2015": "^6.6.0",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "74537a76f0f4319d32dd6b4947153075d5203f6a",
+			"_id": "redux-debounced@0.3.0",
+			"_shasum": "d79d69df8b6164b89b771619afe071805903488a",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"dist": {
+				"shasum": "d79d69df8b6164b89b771619afe071805903488a",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/redux-debounced-0.3.0.tgz_1467244974654_0.3452169254887849"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "redux-debounced",
+			"version": "0.4.0",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-node node_modules/.bin/babel-istanbul cover _mocha && babel-node node_modules/.bin/babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel-cli": "^6.6.5",
+				"babel-core": "^6.6.5",
+				"babel-istanbul": "^0.6.1",
+				"babel-plugin-transform-object-rest-spread": "^6.6.5",
+				"babel-preset-es2015": "^6.6.0",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"redux-thunk": "^2.2.0",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "4474013fb7dd97e879ce6e15f66cd2ab5efc2ff9",
+			"_id": "redux-debounced@0.4.0",
+			"_shasum": "905557c5a4d75f259e1600a60ce934d890967f07",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"dist": {
+				"shasum": "905557c5a4d75f259e1600a60ce934d890967f07",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-debounced-0.4.0.tgz_1491873089223_0.37390959449112415"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.5.0": {
+			"name": "redux-debounced",
+			"version": "0.5.0",
+			"description": "Debounce middleware for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "babel-node node_modules/.bin/babel-istanbul cover _mocha && babel-node node_modules/.bin/babel-istanbul check-coverage --branches 90",
+				"build": "rm -rf lib/ && babel -d lib/ src/",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ryanseddon/redux-debounce.git"
+			},
+			"author": {
+				"name": "Ryan Seddon"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/ryanseddon/redux-debounce/issues"
+			},
+			"homepage": "https://github.com/ryanseddon/redux-debounce#readme",
+			"devDependencies": {
+				"babel-cli": "^6.6.5",
+				"babel-core": "^6.6.5",
+				"babel-istanbul": "^0.6.1",
+				"babel-plugin-transform-object-rest-spread": "^6.6.5",
+				"babel-preset-es2015": "^6.6.0",
+				"chai": "^3.3.0",
+				"mocha": "^2.3.3",
+				"redux": "^3.0.2",
+				"redux-thunk": "^2.2.0",
+				"sinon": "^1.17.1"
+			},
+			"gitHead": "7b27ab65aabede27685cba5e9c93fbc0067b5dce",
+			"_id": "redux-debounced@0.5.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "ryanseddon",
+				"email": "seddon.ryan@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-O2anhB0A6yQZH19uLETFtajcUQLcyiJcgC0hHSoFr5T3hWGtt0C5s6KNnb2RX51MwCh5VCl9ehZTv91F/rsZww==",
+				"shasum": "4dde27a3e66ea428afe78215f30a27f22714605b",
+				"tarball": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.5.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 54091,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCuZtJRPRaEvjs6eXC83/Wy9GZjD/LEwINVAbhXfo4VdQIhALiDG42t3q9XlRuN1ZHzL4eb1MGo6ltRrHk2gHVWUjBw"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ryanseddon",
+					"email": "seddon.ryan@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/redux-debounced_0.5.0_1523598206021_0.2548763746833589"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-15T15:04:56.255Z",
+		"created": "2015-12-13T19:51:07.073Z",
+		"0.1.0": "2015-12-13T19:51:07.073Z",
+		"0.1.1": "2016-01-14T01:04:31.281Z",
+		"0.2.0": "2016-04-06T04:22:05.163Z",
+		"0.3.0": "2016-06-30T00:02:57.392Z",
+		"0.4.0": "2017-04-11T01:11:31.183Z",
+		"0.5.0": "2018-04-13T05:43:26.108Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.5.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d50aa26950cac8adf1bb1f13cfd0f6c2\"",
+			"fetched": 1652762304720
+		}
+	},
+	"_distfiles": {
+		"redux-debounced-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.1.0.tgz",
+			"sha": "feef04a6c73a054909928de8dc8f33c15e085bca",
+			"registry": "npmjs"
+		},
+		"redux-debounced-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.1.1.tgz",
+			"sha": "4fcf091036e0c1cc4b5350c3b80bbfcb597b1cde",
+			"registry": "npmjs"
+		},
+		"redux-debounced-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.2.0.tgz",
+			"sha": "94011ee2ede4ff7556f24e8ed67724de3038e51e",
+			"registry": "npmjs"
+		},
+		"redux-debounced-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.3.0.tgz",
+			"sha": "d79d69df8b6164b89b771619afe071805903488a",
+			"registry": "npmjs"
+		},
+		"redux-debounced-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.4.0.tgz",
+			"sha": "905557c5a4d75f259e1600a60ce934d890967f07",
+			"registry": "npmjs"
+		},
+		"redux-debounced-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-debounced/-/redux-debounced-0.5.0.tgz",
+			"sha": "4dde27a3e66ea428afe78215f30a27f22714605b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"redux-debounced-0.5.0.tgz": {
+			"shasum": "4dde27a3e66ea428afe78215f30a27f22714605b"
+		}
+	},
+	"_rev": "2-f348d32855fb6652",
+	"_id": "redux-debounced",
+	"readme": "[![Build Status](https://img.shields.io/travis/ryanseddon/redux-debounced/master.svg?style=flat-square)](http://travis-ci.org/ryanseddon/redux-debounced) [![npm](https://img.shields.io/npm/v/redux-debounced.svg?style=flat-square)](https://www.npmjs.com/package/redux-debounced)\n\n# redux-debounce\n\nDebounce middleware for [Redux](https://github.com/rackt/redux).\n\n## What's debounce?\n\nDebounce allows you to discard a fast paced action from updating your state until a certain period of time passes after the last action is fired.\n\nIf you have a search that happens when someone types in a text box you can use this middleware to only fire your action after the user has stopped for a specified period of time.\n\n```bash\n$ npm install --save redux-debounced\n```\n\n## Usage\n\nFirst, add some `debounce` metadata to your actions using the [Flux Standard Action](https://github.com/acdlite/flux-standard-action) pattern:\n\n```js\nconst action = {\n  type: 'MY_ACTION',\n  meta: {\n    debounce: {\n      time: 300\n    }\n  }\n};\n```\n\nTo enable Redux Debounce:\n\n```js\nimport { createStore, applyMiddleware } from 'redux';\nimport createDebounce from 'redux-debounced';\nimport rootReducer from './reducers/index';\n\n// create a store that has redux-debounced middleware enabled\nconst createStoreWithMiddleware = applyMiddleware(\n  createDebounce()\n)(createStore);\n\nconst store = createStoreWithMiddleware(rootReducer);\n```\n\nYou can also specify your own key rather than using the action type this is useful if you're already using a promise middleware.\n\nSince promise middleware doesn't have a single type associated to it you can specify your own key for the middleware to keep track of your action being dispatched.\n\n```js\nconst action = {\n  types: ['MY_ACTION_REQUEST', 'MY_ACTION_SUCCESS', 'MY_ACTION_FAILURE'],\n  promise: () => {},\n  meta: {\n    debounce: {\n      time: 300,\n      key: 'myAction'\n    }\n  }\n};\n```\n\n### Leading or trailing debouncing\n\nYou can specify if the action should be dispatch on the leading and/or trailing edge of the debounce. This implementation is similar to the lodash `_.debounce()` method. By default, `leading = false` and `trailing = true`. If both values are set to `false`, the action will not be debounced.\n\n```js\nconst action = {\n  type: 'MY_ACTION',\n  meta: {\n    debounce: {\n      time: 300,\n      // The action will be dispatched at the beginning of the debounce and not at the end\n      leading: true,\n      trailing: false\n    }\n  }\n};\n```\n\n### Cancelling a Debounced Action (Advanced)\n\nIf you need to cancel a debounced action, you can set the `cancel` flag to true:\n\n```\nconst action = {\n  type: 'MY_ACTION',\n  meta: {\n    debounce: {\n      cancel: true\n    }\n  }\n};\n\n// OR\n\nconst otherAction = {\n  type: 'CANCEL_OTHER_ACTION',\n  meta: {\n    debounce: {\n      cancel: true,\n      key: 'MY_ACTION'\n    }\n  }\n}\n```\n\nThis works in conjunction with the custom `key` metadata.  This can be useful if\none action may need to cancel another debounced action (e.g., a debounced API\ncall that does not need to run if another action comes in).\n\n*Important* - A cancel action will terminate in the middleware without\npropagating further.  It will not show up DevTools or cause other side effects.\nSo you cannot \"piggyback\" a cancel on another call at this time.\n\n### Debouncing a thunk\nIf you want to use redux-debounced with redux-thunk add the meta object as a property to the thunk function and the debounced middleware should be applied before the thunk middleware.\n\n```javascript\nimport { createStore, applyMiddleware } from 'redux';\nimport thunkMiddleware from 'redux-thunk';\nimport createDebounce from 'redux-debounced';\n\nconst store = createStore(\n  rootReducer,\n  applyMiddleware(createDebounce(), thunk)\n);\n\nexport function trackCustomerSearch(key) {\n  const thunk = dispatch => {\n    console.log('Search Key ----> ', key);\n  };\n  thunk.meta = {\n    debounce: {\n      time: 2500,\n      key: 'TRACK_CUSTOMER_SEARCH'\n    }\n  };\n  return thunk;\n}\n```\n\n*Important* - A key must be specified as the thunk has no type.\n\n## License\n\n[MIT License](http://ryanseddon.mit-license.org/)"
+}

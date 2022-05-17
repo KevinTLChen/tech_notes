@@ -1,0 +1,1906 @@
+{
+	"name": "react-app-rewire-alias",
+	"versions": {
+		"0.1.0": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.0",
+			"description": "Alias for rewired create-react-app",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "38af8436020369979514ae748f14f2397ee54c80",
+			"_id": "react-app-rewire-alias@0.1.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-rI8XHu/5ewfXeYx6aF+TK63OslDLxr20jM6nd20XqDNqVy8M28GM6VdKuKre152ckJWGQLLdgNyReRpxJE7o5g==",
+				"shasum": "9fa65eb4f4e1c411841c19d0305fea7952a4289d",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4683,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeUETwCRA9TVsSAnZWagAAKRgP/2Q4g8IvXckwKfhnpmy+\nizFD5C4OY3LnM4tLcddFIg7NRlDz0DYzggh0XAWXccRQL+np6o+LIG1vZwoX\nIc/oO+FcEZMprtVRpcl+aqNJjRdttPbAF7hz3wEubquogs5lQFbeOHLKG4nH\nNHFm7TkinR2boCailYCm7zzGvrPvWZTR/6KfT59PLtejabm9emXq0SJYYowQ\ncBhl10IHGu0X84iVzYjdOSxa6Gd2FhhzD1mqlj3TjMt1sfDIBrUVEcb4cJIx\nnWzthcAUnji0uwLuRgq6cz+wbP90k3ctUG7aZ0Hpu7yclQJ5/bQqPU6RTT3B\nVV7tB0nR8OxAFiv2CtWdisAbeoO0V9JfLtGSrdxPRdEV5HtFNhkPKwQ6Fmrp\nLNPgG03ahD8Zwv7+c+fiX0mVMr+h4CYGO3CsPG+CS442Iko5PczBLm14golu\nFmcldBK6Dsz11JoWTrSY3/gch4CFrcsNOptjhnCz4rVpn+PXQbwS0ABiNbBd\nmGFMpI0FHkyzHsQrM8akmuvaXnsqMMl6lYGgx/8u38XpfGb5CCYTgBDxG559\n+rn3SSSZWxzoSjBZ7ssMLKC7Jy5HPG9V/+lt1kE1pdp6B3QvETGTbt6YaHHi\nyH8uYgNoWaJJ13UP3JO0saQ9ABIObhET38FnaBW+ZYVeP6BTWDZJoPV41thX\nWVZa\r\n=x+ut\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQClRhwEWPKFRfsfktWxy5cUEjDs3U7CRzjo14GNslBUHwIgYLN/D8pn6U8H5tbb1SlGQEJIugpuIqzN2nozyeaRuss="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.0_1582318832096_0.1275996828081838"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.1",
+			"description": "Alias for rewired create-react-app",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "ebb5655e811fea4b32af3f15970599674aac1bf0",
+			"_id": "react-app-rewire-alias@0.1.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-hkGYMv0fS2oqb28TMje65G2f6l0ewIrhcHfuHIoEDQZwcUf5tStTyIiPB7jTImyD3gMXqlirV8h4H5KMPn73SQ==",
+				"shasum": "efae35607e161610bcd944dd7dd8816809043357",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4936,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeU4j3CRA9TVsSAnZWagAAUvMP/2XqS3W6xopMgCplIgTX\n5Smi3WsfgZC84QT5YgTPdgIgDFbeqX7IrYujsH1qGwJX1n1C/LhZa1mJazWK\n2F7/occvbZfu42IkpTX4GoHOPco5GHiIhhsMcdmsQEVSigFxiIvVq76S+LMx\nc+TqMMn0G+MrhncfNHHCL6fQ2iUHT44r0TcS9hvBxh7RE8RHkUVzuUREP2Ua\noF6GlT9FZ8Vos8B28E4S19VPKW6iBLu+9qGMwP4JXGaXN2pOfN8mbHmGMpOg\nhYjyFLDegeVQlqA1WzBYGeaAP8/TnVXHxHM4JXREz9TrHFxukk2dvWYdozWX\nvCyccccfCttzixBJZxlI9pfE3+JxQ14pQD57y7pLEa68FezUf2Oc5XDnYPDk\nY8XjGL5OAGgrs9IfcmccKnKFt9ujbja56hfs974imHpTpuhsAePhOpsb2xtZ\nM6DpbpaMKoj5A3G8poUibTzC3vrgv4Qq04xukOsdRo7UQNtHtBuy6mcm9gqb\nnfOL+xyFWsRKITiBint5g0lyEyGdE5pPBvzd5DNXr6weapZO0MqU72NGyWn9\nWVDKMVmRtRIZ6Ta+dRxCsSfEWJ5HTP6XReDoxcPTXA8z9kaUK97H9ecldelO\nBrbn4t/QWIVzqs8MPOxovD61WzKHnW3bKb1iZ6ZbRxXpXz+jKdqgzfZqzfGK\nHjrZ\r\n=R7Mw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD0O+PxqvlAAaER+Y2u1rOzfKo3NNUyOaGY+dbb6yN0GQIhANXECRQ29eCRxF6yRTBFHVFsFid68yiKmwhpzARWAPxM"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.1_1582532855190_0.5153207935992401"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.2",
+			"description": "Alias for rewired create-react-app",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "2deb2d078b90810e04ef8786c7a103c063b51442",
+			"_id": "react-app-rewire-alias@0.1.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zt4RfP39g1YC3kzJKep2m+p5Wb3nZ+zqOUnZIQIRm2t0RtfaeOJIpKSAfS+liZUlYx9WMMbxfTLAM4S2tOUJ2A==",
+				"shasum": "62b0dec88269c83575a3710642165ead05416bb8",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4981,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeU55CCRA9TVsSAnZWagAAUysQAJp7iBADewsVZyMzlUYt\nRE1Hm8P1apOzt+az/T96C0bXiyd9Q4GPJY+DdW13RTgkOuKOmIt/G4dujKnO\n6GyB4z5xhA6NuPJE90PxgnLhtD/4Q8FMeabczw6OWv8ANuXMBAjcvcCvYBbl\nilO529a/nD4Xa15qE+B9mo6itTDgtzDs5x4kSP2CBPT0cx5RoZ04pJnFfObd\nDoedSzkTYIOGqQc88/Fm0Ij1lKl80bEu8z818MzdpwHZWASsAkFh0YlBOXvM\nMqXFbZsBJ44tiNBYtg6+KeETzXtcfKAWmbOsHn7JcFqo3YO1R4655HxmYtRe\n3bieKqhw/g6mgxIXfUP+KmKa5eihmF411UAvUbNa+3p4p1JOVWvo7g0kdaLY\n/DILKbzxoPdQLuv+hLIGEhpkL1Rwx2WuuKKQPK5DzD1XySV3FPyF7XcybeZ9\npdVGcW9A/gCT1Ck5UfAKaCGywDQ+Cz2Ob/68S4SZQYP1g+/glubRaA8GDSfG\nKOFdytmqKMx9DRqmj0zZgh7nK16mTEnrz2kwD86dntYqpeyugpn++uajg5UJ\nDQWdZpzOLXL+TVxiSDMlU3eQaVGxbvRkvE+fCXoxUNc01fDkNRVMCXPxVlR+\nPPHutaNoR9NjzJ1Js3T/28TayIniqyi8AFshQiWa17coTl2EfIEzEVXpu4HZ\nvTC6\r\n=YMub\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMfScN6lzY52ygzDN9OVKPqvm1yn/FFhys9h/d9zsA0gIhAPmT7Y/IVngQ52Nhm9AJLIqAEqyPFHIbhz86D54O3t1S"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.2_1582538306370_0.9906825618087203"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.3": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.3",
+			"description": "Alias for rewired create-react-app",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "42adca31c6e37ee8018982e7711c804dde12d17b",
+			"_id": "react-app-rewire-alias@0.1.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-PWA3Ve5lZD51QNLb8s0V28NjWRCMI1ynuQsjx7FHLAD26vQADLFquxwv94b4dANeWItznG+P07cb8B4yV2H/tQ==",
+				"shasum": "188e2fc1fd8523da2b88b79829d14a28fd2b066c",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7300,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeXL2YCRA9TVsSAnZWagAA0SAP+QCJyfwda/DzTzNfaVxX\nbxrjS7jkHGSgizJp5n1AYVW/VYiMpYoGFAg7LZ9ra652UHPMHAAgPasK/ouA\no1p7pdaDgU6GXRdY/5Ml17bAjMpfb4T8aH6YTfWCdbcrbgVCjEwduq9vao1w\nIT2fXB6GboAZ+l5nTL5nj2++zJPNgsCIgHUBKO+neqmgrZ8Bvw2IbKHrO/2y\nQKLHYBVnGlWiLLd0PGPqkOL5wIGjYjyzMpLtlxFD8xhpIpC48CKbkFQH5SQr\n7qfWdMdiSgEBFe4usaQM7WGA/hzkzuZfotR/S2pbJA50lmH2sTFhLZOGwIZ0\nIN81j6y0u9PFVaexn6OFiBV4u5CCdw0HZYcgyo39VJiv19vCW7Afo+I4a6C4\n2Efjm4bxAB7ZFY2lv//y8speqAqpCDe9v6XTTzqmV4SvQ6OuKOQz4VRLLXM+\n8wSW0XZ0WioK0SgmjCoGgO9RtU58zdMxsebseHZTMZ4c8r0kIYI75SGClQGt\nrvXI+mDVbunRzttVB0oiZvDcfvNBBc0gUgr80vOm4u4mxLkPiDUgHEbL1kfx\n771+XlUlZVGA4ZUG061BarevxPUHDQLMS+sJXRrBaCO+Y2J5MODdb27Rz6XQ\nNMcI450Fq7AazIzTU8G7Ayc+59SZRM4421YKGVq4Af9RJBs198IXQg7auEV3\n13oE\r\n=t1Rj\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGgM4JOYcAo3Vvvda4BezCnrTptDr/imxc+109YuoDVvAiEAzWQVLmkoHvU3EyjXAXX5rrL9Phb3aPZ9ZN+5wvwsktM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.3_1583136152202_0.13001334298501033"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.4": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.4",
+			"description": "Alias for rewired create-react-app",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "f036fecff1228b9456383dd3eda8b0d7098634bf",
+			"_id": "react-app-rewire-alias@0.1.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-M2+j/Re/qBrAyaJVK04JGZyNd4fYF1xrpWWM03lgCNNNRkPa7E2OVL0WUDHK2xyyOwBBwFYaPumoSTdzoo+PgA==",
+				"shasum": "320aa032810c3c25bc549fbb0e22e531d751e04e",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9793,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJetnPLCRA9TVsSAnZWagAAPLsP/jesUX+TWTuI96mXVU+S\noi48JR2Hihf/P3sfOjn8YZOWfWUcPaHA5/jOZNueE3zW6Vx7RW+lJCaxI755\nHRCJej24aWhhx7BS63oUHvlXHNRVshOgHwts0wpU9cATe4dkQAt3Ef73IRxa\nQO0SE7uo+TKQTKfauPC+2VMPA6/GwyPJdg8skib2Stc31cxleNH9F3Sn8Kwq\nnlacCLu2yun0grMmtyqB7cdO74Jb/dU+6Ns+TXJ1r3HfOgxDRGhXfuK5dV/e\nHcDjnTGmzCdwKzPRHRbq8+hfYxPjxIdaFGmgM17dhPSIca09xzw1LYSF4a+P\nh4z/rMNadgBipEgEnQQT32CeJR4uaZlVjw4l2XUkjOnXxjas64ZsyqqOchwE\neEqckND6trqfeXK0SJ83lFS9KJWiC4UULsZ/ezS5/6R1/FiI3piOelOWxLPk\nn6JnW0C0h16qhOK75Ec9BCWANVsClisLEBMQlNS6hxfNdRfQ+gD5y1nnm0U7\njRKk3fGj8/gUPP+5UM+mpBndQOVGbHhKzfVZgM9gL2dfxREEp9tGhjpnZ7Jo\nhp0sqeBoRMXWbuwezwwh0hO9GN5Zfv9i3smmcqSEvmPjBYY7r73n57crRADA\nrnZkvYz57WMtptZRtFe+Z8DMsl0maG/ykdup4d1TargiaMVmT9dwWcyIBG3s\nhu+b\r\n=LCaa\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEq6QwcJg1PYVmUkcMRC6d6Ag2I4Qhv1Y8ZItg53+s6jAiEA5awsPyHaIzg8uSK09BVbuOZLBAtQ3cC1IP8/dH68Jlw="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.4_1589015499370_0.8202486822704731"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.5": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.5",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "8d9f7a531b7f830b55a0934f2cc437be86e48221",
+			"_id": "react-app-rewire-alias@0.1.5",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aaVd1qfO26AeEqonFXdG3TPe4eP/ucz1AUE2vGJwVEmZfgcyiL6eNuLjPVaGKfb4tfi2LjAHjh2CD/8FTiRntA==",
+				"shasum": "cba5c2bf42424adb294131928ccf8ed39d2b8bff",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.5.tgz",
+				"fileCount": 7,
+				"unpackedSize": 11384,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe2BTNCRA9TVsSAnZWagAAozgP+wQDWruzqi+Zor2TeN/r\nwfqVer/HSm49odGjh2mkvz0cdxytOt5aCLh74HP2SCzpwwSdTAkg/FflkGGb\nHbw8mOfbeS/37V2R84Y1ZpwJ2U3WvUTbDvWVC5YzdD12BcPyKkNO+wjois6A\nUD3AnDDS/nY9gwYtSdO2qmH2UVnpkFkdO1I/WIWDFUiMGAnjDsCnzhhedxEk\n3zFqzlsgVQ2xTO2hlPyBcSnrYJ5Y0RfFCPPMXUl/xLkWLYJ8NvDeB/LsF8cm\nncGKZc9hHBljnI9GlPprzlZd0ohwX6QFxpXi4AlfzhmxekgMK/s/SgcdTwFQ\nliAd0ieBrsjt1KWvjJmcOIs9Gpnka0iZYnbFBmC5oDQiVYCeqNES3kDGgKG+\n2Bnd6Ky/nkAm0VKm9E+FGedYZaRvcKfXrLEdqeqobpMBQooShVpN4fHHLb2e\nowFvaCCn20GloYG3nwhI4/csi7RKHFXqd/PyzzLiTqJuve7To4UvDoia/4mE\nUMUqw05OsuoHQ+7nWB6eabyxuhCzLclN+GrnYFMiDwhQDXK4/Jf6Uw6rq3g5\nh8spN2VSSVk0mC674gl22ESCCqCxx0fKW9xQfvizYTXkWrg2mKiFPoLbqm6C\nQGgATN+fRxgBK7laVrtQqjS/4ks+a13hIqJgjIrFwIVw7V+94b4hcXBqXH0b\nNvT6\r\n=OowB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEpxSf6H2+BJQx6dJym9n480aluLnbq/ueeoyn4uhmicAiEApekJy+cain64XDX4/s9e+XwRmIK9X9sX+TEZVpooaco="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.5_1591219404973_0.5428731207003132"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.6": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.6",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "8af91a22b89ae427b8170b9dbb28093e8477396a",
+			"_id": "react-app-rewire-alias@0.1.6",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RWI9danv1hw2YJQ1LrAImmB4g1TpGe56RZUbfyhZGS2dwpz2s1tz9JlA2HszSdNUUqcjat+Qcw544/Wz/zE8kw==",
+				"shasum": "27fd6b47769871d97665393e2e572caf184948ef",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.6.tgz",
+				"fileCount": 8,
+				"unpackedSize": 11870,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe2Q9TCRA9TVsSAnZWagAA0xgP/0xotWXrETHV2kWzxtQ6\nxbA9jwUXg+WJvw2aHB2jQsOBeJKqHvBNwr/+9RnAKTAZWfMl69UTXV+rIsag\nFivU7tokrxzHfGZRMYzNW1UM1LMzUcfn4EV5MV3pAU/NYwTHkidLX346PXPb\neVvaE6gjl4GwN5JhsjUVnnNdaTcKIBchz6r0gvvLFxNUiFRe58+E5+gUWR+B\nHRjo+fiitxkCSrjY/qFegt0vgv/W3pVTLg6puJ1EbKtqWwlSbHCAoCiJnFw5\nJUSqg3UnsGtXx873RQEPKb9QGn9xvDFI6Th46zkb31Kb1zq8cIW/k11KJEGN\nHXF2p4n50qoNBibp/rijAAyQ46hBKoliU7pPl0gIZESHF669NScQf/zRh4nr\nAVZYS47UnI4vZC/CkF1pslHCABapVp9c5vdBCLz4EZbQehcRykkEgmKMHrMI\nz0avSF69h7zp31VNYEg8PQYBouhDxenYj6Q6dKdz3Xnu25iyje5gO5PPF9NF\nPavtvQOi1cUycteaEr7Cvnc84xYeZhdpVj9q8TpT6NX9noQnWkCQXcfe6pMe\nvAK+h/ccpXcMVypFPosvDhd5/5MacXzP32YY4UmVn86kaXUytB6EyxhhGggA\nlEHhxl4A+TfkNzrpZ5z2HshAneZtrPKUPyzI3GGtR2ieQsK5/GNyqdTJzTsg\n6NZp\r\n=PRNr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID/RG4+uSt3siW1jepihW9cpZmooIW0RMHyxoGWVU6UrAiBz3i0sgzqdqBlR5K61K5N1ookH73+NuySsKBtYvGNNyw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.6_1591283538659_0.45004174398184316"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.7": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.7",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "8581c58b8e01ecc73dd308b9bbd2fed11f5878a6",
+			"_id": "react-app-rewire-alias@0.1.7",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.7",
+			"dist": {
+				"integrity": "sha512-7W9pFQRQTY0xcd5F6UIegdzSkIfzt8lwJEYGXkS6GkNtVBiqiQ8KgDCWHLvJeCT7+z8/OTkmPY9CjmDXcBbFcg==",
+				"shasum": "3f635765365b06fa6a30760758dc587b9c9bc110",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.7.tgz",
+				"fileCount": 32,
+				"unpackedSize": 553379,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfuLe5CRA9TVsSAnZWagAAxTsP/1wenT2V9DuAaeS4tABs\noTA7i+16FZUi9nlEUn/gH0EPtsnSVczI9NdHfxBV9G9IEu8jbiNfRH8LBQtA\ndY+HfZEm2IxGkZIwHYE7CwvDbevtpiOAZIRB37z0dLnOzr6t+shm4zPHunYt\nO0bBA42UrsjJMpc02NXNaOcNZAnMrUtRzTckmEFLv0uUyhUnFDsOd9SJKlnm\nDvjJYaDew7Af+gY7nCy+VH7xrhYR6FUZL2+O9M2dCZdhkaTIpTO46EaPHbZ4\n/Ks9AzJLKl4ylMmX+8uGE0ZJ1SK+tOqXw3gmnv/514/h/3uXJjcNLdcNRdXq\nVkP6ULHWwxgAjC9+GFtgEIoQ4kvKjDVx7jqFLLg5FBSIOCkvvcGgD6ODZPvO\n6QQQySqGUlDFjp8yMYKwGiML0orp3WeIzeu6Y75MTUAsgOYhut+Rzmnc9D53\ngRe4KiYPxLt6KSCun1g1cRuN/+2zB4dOGo18EWxOtkPdWfs2WCULWL6Qpqkh\nekan/VZzBcRiGYWgTnfiPGPgGgfRSktltDPs6mm7R+u0SMbndggpM+AGiqf6\n0okCwRY7HTgaopWjfT4bnbIY0tJ+xl6SsYd0WRM9K5fU7LQ5TBWAEFNnZeaE\nnpJ+1YfQjRvegP1usYhhRDV9qKCSXMu6wAAu2ysBYQFVHncqZWfwwT2uiJSP\nC3Dk\r\n=r2rB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC+KK3Ey7MbQsGT2VR7YjW2/gyg2k0Ng0rZb2DJn56ZwQIhAJQ41YJZ7mJD3JX5K61/RxtIArgszu8qsskp3xBBPaj7"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.7_1605941176404_0.3725427464054809"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.8": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.8",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "0c68123fbdbe1ba1904950b58d58e21769c79a30",
+			"_id": "react-app-rewire-alias@0.1.8",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.7",
+			"dist": {
+				"integrity": "sha512-sEA0Khl5qAs+N/0vuDGjVMG6dqE7kJ9PnpwRtmGLQL9Jx3pnLrQFUb1M4wzIlvTH6tubfUT6tCzBQVUK+pdCWw==",
+				"shasum": "09ea06a1cc9c174742a871f85ff1df35bbeadb85",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.8.tgz",
+				"fileCount": 31,
+				"unpackedSize": 551882,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfuOMzCRA9TVsSAnZWagAAw/gQAIlJB7s6PSIQ2pPQVdVm\n0+jIp6pSg/gcXmrVIRX32/zYZR9lUk1gldDCUPJ6zU8FdtgqiWwdjPbOslyT\n0Px0QfrFyjljE9L90WPX87ZPdGHPLBB7ZBhFgHqj9ZZWIZm/9tQPCL+tK4p0\nBcUxODL6lPehtXe5bupz4hze9MZlPcJqFNDVWrBO13HKISZM0ICB8OpbwoTc\n1xsz/PwC158Pet2AqGNeTqJ8cidFn9jUvgnpdOObVBdI0ug7nKWfvnmPpIks\nDPVQH/98UWCrtxD1OduQag85vPVHnq51zNOrNtZlDlnZJkDwXyyzrxZzBswK\n4k8cVK97t3NM56HDhWQ0xDgqRVk/LSGXuSq88UPIvIiAo13rmVTf1TvhAkXa\ntboe/WRag8AvdTi9UPS2yhlVX2UmyHii/dwfD9vhl0X6uQJzXjaTHO47BS5Y\nXK7Rjethfe7TV1HXBRkkxe7BtJ3GCj/Z0Qk7aUb6zoPBWdKPryEg1AnwXpWT\ni4awydXY62hkBKqh8nohAZ+QtfnsFF3ECJ+riUq29Mpks9NLmUBqlqVhnr7t\nBFLJ1yV76Ehjx67PkHCq1LVUl5g9G4uE9jRKQSNZ+x50fcgn/tue/CgAP4Iu\naAehaW3At5R9xhlMI7xT2N63LD0BIF7eS33tZjPOtQvJo3V9fMdbNCevhm46\npv4L\r\n=nVvS\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGXfLUkTHb92rUPHbWHVOPLTcz/OIJ/uKDFQ4JZIGOV7AiEAhJy4VE9ojCWqj2wDh0I47+bH0L8bV+I7f8fNbyZ50Ms="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.8_1605952307061_0.1333883589960967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.9": {
+			"name": "react-app-rewire-alias",
+			"version": "0.1.9",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "74810acf6f9da2c510cd49689f264feb88273b58",
+			"_id": "react-app-rewire-alias@0.1.9",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.7",
+			"dist": {
+				"integrity": "sha512-GGDY4fZIW+uKIekPlRYimWciIjEQU6Xhhly6UQdvBbxowAzrqDyEAqoW/SM9kN8W4ldI40YlK7xkcfkXnPYAXg==",
+				"shasum": "2b0386430f0a5ede197554144630d3e269a3a9de",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.9.tgz",
+				"fileCount": 32,
+				"unpackedSize": 555582,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf0gDvCRA9TVsSAnZWagAAKMwP/RhWGn18pN0Dj4O8yEkS\nMPDdIrbykV2F0UvDztt3bnkD3XTNC9hRipWPg3DNPFFU08Xk/eunflNkIKCc\nzrEVisSzZOZ5QD9pVrDhapImJijMxxJRN2aBE15Mk5Hca+/f1t27XyCAD4dy\nmwQX/6dHqhzJuqaGGsOUT5uviQi5SAsU840DMY4jyWak4r5/WI9BNUPHtiGb\nwwU4+5VNyaA2YS2dmi7H4/l8dybGkrWR4R+GUofiSO/VARbxTnnAhFJtdQPi\nMQ7/dkVL2UZDjHea2F2lNGmr8CBycBp3JwGfgKwdFUqWLF8T9vH+lp+yqfz2\nnNmpY9Y+cdjiagrxcozXR5LqXkOkTXWehYvoOjMYYs5B7UdHU+FDTCT3oodm\nn+iypLMvDCasjhvauITgiFVwI1T8NxnrkWywN/+ma9Seb+xReah/NFJg1p6T\nx3fG7XpjUgYnEgqcHHTnqLI2bfD7Uzp6nJhyKpSy0t4aIPJPyISzu/KCKJCp\nLqj9xdSQmnWE5t6irHbWhyZ6rtU84sYKbXUqTrPLrUGwi2j4LU3lRXgp13I9\nN6sGLI6BLgHInTadE8oHcnI5OCXSwX3d8kjmS1kCCSPpEmhVSLjCAEPtDrSi\nDjqltSy7eOmOqSK65RJoezbjO/6tQB+yVYbpfhOFN9zQlrvAZ0DAmagN5/Z5\nNmbG\r\n=m+KH\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC9Q7eJedGxqtibSPTVWC9wYqkaQxtf1fyq9Uft6cdTnQIgAXLBzwUIByQzUTg2AZJ+pk5KS/jrVczCmZDacPLAzm4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.1.9_1607598319167_0.7778937663289696"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "react-app-rewire-alias",
+			"version": "0.2.0",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "ae4a997203b756908ff8b1cce19c21d4a05df04e",
+			"_id": "react-app-rewire-alias@0.2.0",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-mXUbzD7TmlON/lnRKy9TIRaYCGGe8sm3arKezXG2SRTrZodTBC6/NFJcoS8y6SXSMNWM0fLDVj2pwkd6D5bm1Q==",
+				"shasum": "f18e35f9d1520772408068d29c58aeb35e60fe16",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.2.0.tgz",
+				"fileCount": 32,
+				"unpackedSize": 557685,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgCZchCRA9TVsSAnZWagAAeKgP/R6WTFJIO/p/fPwg0rco\nJNJhrXN/lD1XqAtKGLoBz79LaITrdHVblnr2cp4uHHm3hMogYHCVeDSbhKmA\nDpj8nkXK4M3uL7t2c4b4mrP+eViDbiDCQR60RgvkFQuOzVUwUBs+E2xABZvH\nNwF8pDEo+DfYelOwHEgIt5Fa/ASCpn9ApMbjwnIrctcYg3XiCqUpovfQlInl\nZ+RxyTtq2J2LsDCnfX3Z9Rx3JDT+x1tTD/v+KSJ5hn63Tf1JARUKUaZKeTFI\neP1EfHyYb3FB+HyaG4V5Pb63lNsbC5AXAhNGoyBkIf1iNUnyzuEcbiYVjTGi\n+1dMxvq9BxosDyUoseGQIEm8+wF6D1+6ybuGbOLS5F4ulZjievKqPnMeSEVd\nBwrkANS1hH4mDJ/r5d2UvzcPP+HsUuYNrjBYASmSDb4v5+c3BxC8jzURAM+u\nOGRHOq6b6TIg8awVMuI130HJPElDgq3pu091liwhqbtf0QJiyEp2XTwkua9E\n6a/E2kYWfDGGTMvpokYf1HkB1tAgXuOvosBPyz4TtcqJcbAxZ6w83JIi71tU\nhTwIYpLZHf2LS56M32mpQp2oYpB1yZAqO5EeRTIOFtM2ADDzVfZNlFpcHRUD\nawoyrp985td84CMfsSRztGGn8M1J3qflBSh+0eBAqG1jWDAeFIayKdKP5HYZ\nas0B\r\n=udYm\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDn+oB/hTrpbGTPG6R84l8wZqIAEuPZpELUpifLNfwDLAIhAMsB4wsuTC9+5Yj6obY2ZynvDFQPbB87Tls65tsU9reh"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.2.0_1611241248785_0.15085229539163447"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "react-app-rewire-alias",
+			"version": "0.2.1",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "7a571d0873f664373509edd102fc9a2aec396fa1",
+			"_id": "react-app-rewire-alias@0.2.1",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-vxO3yDXOuzsCBa0V2f0PB13bu0gDYehqBM7T5Fx8FYajfUn2fauFoEGkySQGsF9om3nQGIIc5zpBKWp4Cl1GMQ==",
+				"shasum": "0606f221b23f7af912e0b7299fa147f5bebe0eea",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.2.1.tgz",
+				"fileCount": 32,
+				"unpackedSize": 557663,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgIPtHCRA9TVsSAnZWagAAMSQP/jzimgkzbKpxH84D1E7r\nGripH2KOZaujb2ah0ttYVWtqIgI0ANQ2maraG/qOoMAAPoOar6Phj/SKnslT\nV4Sg4U7il2ujbXiCYqQj6o9PigWX6iSWqjC75ggKsRDAjb9lUpi9Jtp3gkpF\nnymLpC6q4agEjdC9iG29YVHn4FVS0RWa5Zg2/Wph97fzLn6+65+dX+i2IvZH\nlqqIylxmU6atnlhfzcB2llF1qrbEnDN1fRGkjckZorYJmAlF61to3XJ5G6ra\nWt9b4s/y2cmlH8yhguMtsh89S2vla046hWb9Ch+7Ub54++yinM+rJPOBX7na\nsNlaLDjkDspoZfqBvGU9NBv8Yvd6SXB4W4OO+CTmYEQh70QWA9vMC0HLANIL\ntBSAooS4O2IRLEo7eGTr51b8KDMvnVLqOIM2hkOM3OUIxWxSav4JSxkBCMNI\nnSusMMUYuBR0miG/oRdI0j9S/8xOEEFPxkicdQbgMwN+srTfJj1J9HYtl2D1\nqdJb3AekESt1lov1FVO0hbhepNDh82TfpjLcVbUwkcUaKNWmU/fJSiaFbz+X\nfnekjuUjWd3p/uzaipYmKlotoCcld8HynxfwFk0Doormn8XG3SviP2DMR9iV\nz9i88zTdyXHE9whPOQ+SEq6qoGot1qxaHbQgxaZEROHyc3zu4C4s+jnwL+Ni\nzucf\r\n=79R4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDOmMmRyiUQJnJ5HkmCRHg0HmbsK3OhgwYEYD1TEP2O+QIhAKHk/Udibe5ivbLilsdfZgXI15kAVsPXNW3pmApMf/5B"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_0.2.1_1612774214790_0.24610539111261986"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "react-app-rewire-alias",
+			"version": "1.0.0",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "59f1f57c16ff2433e1abece462bb4642057300bd",
+			"_id": "react-app-rewire-alias@1.0.0",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-BhtjZMDEB21iuvH+2YhCW3NTRt1PcoCsEe7SXbwIejf/YDqXqDfAl7tR/9Emtvu1Ubz0pqW2qXKrUDS7VDw+Zw==",
+				"shasum": "32107ec4cb2f60d8eb246c3b55ba2cb8faabd09a",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.0.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1096050,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgJZCVCRA9TVsSAnZWagAAapkQAKNjRskRFtOayGkfLo0L\ndu40ee8HUk/Hrv+6n/GyfIpqtUxlOUmG6uxjOFcQAYOLKkSGKMx71lHKcV8+\nI4kquKmE3jBnL8PKPeyrBDPPv3gzXn8f6UP1N/jxr1/EkWHf4bIbF6IBSerk\nvr5mrNaF//kkoq6E1W9Vj0XQPinUKPyv2goBwkn+XUnE71M/b1+aq7xmsfGV\np9jvmwliFVUEKRbVRSEytWkiU9K5+JmIvchwDblc7mDC3Ouhvyj+NAp15/g8\nT/NNnOxFKcX3jr9clCqYWBJ8CIs8ioYQG8oL53YeUYbKmZVTWQbBj1viwoHg\nVEbcVtFc6K1U3TNmIV6jcCTs952HmIN+sO+TDD2rYog9J8NRCYRGnxO9gHIC\nh8pXraExNwtRz7HU/5K9PbJdngfLQaVxsGP0e8a4GQFfnmh1bxyQDVuzpswd\nFXYLu2Or59MzWARG/aeo6uaxJvtcAKckPaN10OAbwDIrC1lJQaJpnQvI0cYE\nBRZvFjNYAKxYXM2/SN5JtBQJInGbgX8y6H+6d4Kz9eV9HFJZfgnf9maKDQFo\ntNKcLRiyg5om+1gBxtYp9ge7Y0NyHwwYHTU5VuuLG7oN/P+dVHIjJK4clutQ\nO6kefzOg99yBDCzL6CifH0gDX8Rn64pWlJeaisw7LSfkhw7sfZ8dLpKr6UJz\nnaTg\r\n=J0X+\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDVf96XoXmsISKy85y08Jvyx90vi94xzgC9Wz3TBMgafQIhAPeuDqG6A/V/9susvY148FFZZ67jPBrxl2foSmftFWpn"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.0.0_1613074580924_0.3727375917724416"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "react-app-rewire-alias",
+			"version": "1.0.1",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "57b797d6dc9ead0b10d6ccf2c13ab832b8ff938a",
+			"_id": "react-app-rewire-alias@1.0.1",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-Da11BCWAMHpD1uH06J3Tv0e9FpC22Wx2zmjoeYqxmVPXKVBlLoOpX3B2bp64vwDiI0yUqwnrNBhIHTQ/Pb9O5Q==",
+				"shasum": "594b86fa087a8f31dafba377f2a5d557548febe3",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.1.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1094774,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgOgcmCRA9TVsSAnZWagAAEJkQAJ69WJBfxMUrktjhXJ9s\nGiy7EJMyvWmq0FfQIa5oWVpAk28Q1VOcaNnrGLM4y4toCWSzX4PjGiMgsbAB\nHjWlJNDl9lpszsPSF4386RiOZpUNsHCGrnwEXhNW9MKfPcFNJHKJrfYZsuV/\nnysGTOOfQyAHbl46+C4oElelhf6j7XBpRMP/idH8651VhMx+k4pn2qDvJunr\n5Z7UwJw+G269YfEWvgNlsDa8XX/bsfQILTwcbNsnXwJK0fZabTjfTAUriTpl\nOk12r9gNQa7FbQnzjc5viej0NSkoEHor1wFjOBZgNlOorsQpFWkobZlkBU/Q\nAFhCNgPz0LaQaslgIPKZikIMY157JlpOX8Mfw8cGPpTqc2iz4UIzRSsjeMQL\ngF3VjGr1roaPM/UTgBFy6Xv4FoNEEnA0Iq7e4p8DdgQJycyob+2uKWCNlHjA\nR3Q9vHAJXUBiXgfC8dEr+Q5b4nfEBLcr2TnmW0zd/RThZ6IeLhgtLBr78iQk\nStHVwv0JRHCR2exmxhX2VJTy4Tbf7mMgBaXAaiFBswOMIJ4z8DPVSchCHeKw\nvevjs70Qu6PA5JnyraJ2JtcsSocFI0r3UspencaEn2FjIfP5lgpgaaBl1kfO\ntFPT1n5nSnH+svBxGqF96fEbyhRgFoT75NTusYidc16bQCKqnvE10t4pKgih\nEKXS\r\n=aWUr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHSeRKtswtcEJ1dLMkSWGaN6fXM4aCixo06jxNTp49qYAiEA7HQplp0J6VieIIm3fAAFLU819xx3cmXD1g3Cpnzg39U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.0.1_1614415653722_0.6140645278831847"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "react-app-rewire-alias",
+			"version": "1.0.2",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "4a3ea6dce1a2f80cf403cf6522051198018d5e2e",
+			"_id": "react-app-rewire-alias@1.0.2",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-JIq5BOSCp+aK8r2dDNUXvXZl/brpwnStmWQsIugNIAv6OcJRsyTmKDan0ZhNnGRfRvyCL/s2QTJoiCbhVElQAQ==",
+				"shasum": "99b7b524c30f7643bbfed64786f2aeda4bb5d1d8",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.2.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1101908,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgWIu5CRA9TVsSAnZWagAAD5IP/0L8JUuhgqRkGq0MH0A3\n4MrDZ3iJ2Skh3Hn1iGCfmN80VO2+ji1g8HqjGSZ4rUxPDztblCZwg/PsUibr\nPZYzpFwOV3k9c4Uy9J5qH5hI/kgrzzxsjrOW3YmXnvto5LSr8ZHUjOhGZ0p1\nvF1YnHqg5SHY5b1CPgpaI6ghGwwhxoUWAEMDBQUSgnglSz0heMCa3JgrNg7H\nTi0VIhaChDp9p/DXXAp+ifRYhtz3e1C2vI4aRGAHCvZz/gS07hqn0urDVtzP\nVaQasn2uAAJwT6l9NbsWmr013Gnv6uc1gbjS5uuEL34pTwLm7HxDuss7M0Ft\nk6GDy8VDLYs5peIYFYV2sh1Kopk68+bNvhlGr+jf6aewBscoPiN/mgO6qSfs\nUSzaOvc8JqwlzWTe28aM/8tWNZEcuuLfUt/N7YXptRZdJKVCVCzx8vlcRYE7\nTtWzemRa9G+26y5cmyhlk4mlh3GMLjgrH9/WJUzy2wYG0vyRFzLdj+2YX+L8\nLNeMOQLGH9jyFV7HJYa9OG8SKfm30O/ARF5Se0eXrxxY+SFCfvDFLXc2bMxG\n4iReKEzOSvjQz3bBy4FTzuYGwziXjQKzox5esaEp79fPqeFkGtMEtxXVxCxw\nAmiN8sLdyQWN6g7JHeAEbocidiTzj07ajkwj42tMpDTFw9Rlpr5jPKSwZV1H\nl5gJ\r\n=654h\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCNwDp3KNe75SgBRBR2S74IdfXiSvLRutP0vzfqWTIfBwIhAMzAVfkSmXFOMCvh/EBE/A61nimR5DERWXo0n5gBQNnH"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.0.2_1616415673366_0.3683730564166594"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "react-app-rewire-alias",
+			"version": "1.0.3",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "131e994b8f6865b4471a38c7f66d0e7704fd0632",
+			"_id": "react-app-rewire-alias@1.0.3",
+			"_nodeVersion": "15.5.1",
+			"_npmVersion": "7.3.0",
+			"dist": {
+				"integrity": "sha512-rqeDpqPg07lY16MC1geOBtopEy5hQp5vGPh4xS6gyPyP+uVU1tgYagRyiwDfa6/QvlMU2RmmefIoT5kUpfzxjQ==",
+				"shasum": "02a89295a033fe811c4082af2381ce6f37b5506b",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.3.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1103002,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgXZyhCRA9TVsSAnZWagAAE84QAIxfU337MLXMNcDTRP7l\nSMxF7xytdfo7LTr473SkSyGv4qKxFeJ/MJOusoDo98jMVPZLdaBNJS0GZ5qw\nk1GphOkC+atU713l3qRT8LFegYAmSdq4vyOvBmeKS0UM75MuoGd9MbGhxG19\nL2KiVvP1IImwH5X84llawSMuSripe776kXxt5tFPwZOoCznXtLmoylzBLgnP\nvtyJDlVc3oOPq2ZpPc1YGUcbiHnA33K0JY8r+tp9TYxTld6BH55Wuafb8SSo\nLyIP6Ed6TgnqlXWpVF+paHTN84A0ftU9gXkwO2+lPkU5bqvB+ytcnFNqEVCH\n0PJnfBDRQRtKLYdimGzDhBZB6sZQurTQ9VHHUaX+r//PPp8xR9C9StupU1Eo\n1FQr26at5UADeMtNEnVK4AwlpAsRQ3nxejJXUzkeJfVTzKjIajPK1xWCQb6f\nEvCCxraOKxF9a+oNHKfU9CNDeo2XuK6hgeEbQ340uChP+NprM4Oly2gFa0c5\nCyd/Fjf+hI1hsftejNzMlChHDMsPodsPcBWgD0/xEnOaZ1az936VJ05QaZj/\nB4vhSstdgqGU3EAOldg2Y2Za5SBYuUclccoyI+6MQeTo3B2V87jdDOR6icub\nOVH3AgoNU9WUBld67tP1e09mqEEFNQhMcnmJOMNRQ0nG7SSkFkFXrKr7nBuu\n+n+e\r\n=bcD8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDcqd6RQoOGts3wZM7oMKr/32FNbBrCjmRpn38jtA8f3AIhAOzpeH2gp73QNPV0l/hWXRzSAytKe8/nk0MN4dOwLczT"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.0.3_1616747680703_0.8537491035604856"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.0",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"alias",
+				"rewire",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"create-react-app",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "9deefa4b44aca6abcda97a2cf3860c02b929315e",
+			"_id": "react-app-rewire-alias@1.1.0",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-OD2hLuDuFFmOnbTendiGgY9z0b+O+d2R1TnAXvw0Gxu1phHd/PNEn/xkdsVKug6VDBX/VzrWycx3NtBQnbukIA==",
+				"shasum": "403205a89aeddfdb65a52ef9005d524f0cb8b91f",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.0.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1114578,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFGOc+8NcEYWH8zhbPjrPWE04b9kw4ZYeKcJOvWGr0CYAiEA5twF4/6cPGTFmgwAe2IKhDeVdn6IYD1gbUeEjz02rWA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.0_1632806716004_0.6276303774766485"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.1",
+			"description": "Alias for rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "a0b261587b8d12c566e993fbd691830d0c3eb7c4",
+			"_id": "react-app-rewire-alias@1.1.1",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-BrQsPHynIxaDZtKOW9Mh9pEwGhkKHu4H1goM1eX6Ir4bdglgDCei1AUhjj1CmN5ZgtOFKbD60xDW3qv0r9zhww==",
+				"shasum": "952bd0e9cea2c8bb9fbd0cd0f3df18e0825481ac",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.1.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1114644,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCRcZ5Ku2e3HQ4lPiHXw3QHOi2Br52dfS/Wl10qz2ybuwIhANaJv0vFp9O1hO9hi7xcSnW2YfjsF2grl2pgSGOt7eQl"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.1_1632807259906_0.6413037983937111"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.2",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "eb315e13cd31f22c4046f7e3b172281404a61889",
+			"_id": "react-app-rewire-alias@1.1.2",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-pD/q7a7ocxpTgqkuszZ5rrj/ZJyK6KgNL9ZWVu7fgmSyTkANaJVjsxZWPEzhHbx4YgLTe0mUz/69ucXUtiDloQ==",
+				"shasum": "bb01f70782bdd67bb1912c561376d3f132d7c494",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.2.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1114653,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCSdPGYOMvMwF9g6Qj7mLSYVQdO3Qq4dlCMknQ/M/eJbAIhAKbmJpNIXTQB0NITwJF/kxDa1Av8/sWVdZQIjcJsBwJk"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.2_1632815965901_0.9220481844900099"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.3",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "4c6b2b8ed34bb84e85b14f4e3aa272cd702e882a",
+			"_id": "react-app-rewire-alias@1.1.3",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-pwpUqZacGBpZ0oOOPJ3DGiMOvui3nP2bUDVSTo9cfoYG4p68PhABTk9lUtLzZFAPnPbGaA2uwAzyzFQHqN8Ztg==",
+				"shasum": "bde3078f2341da69b550af78e4e2472e691e5fe9",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.3.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1114685,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDBhjBdSvgr2ZTwfttAGYvNzeex0xGF0DNfTesBWCOpOQIgHV9oUUPHxUuhHhY8Jcrl0HtqwyM4uXeT8A9MrGBqTDA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.3_1633069374745_0.9782809354282265"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.4",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "17fef142a7cae76f28d4a4dea2d53bcefc13b953",
+			"_id": "react-app-rewire-alias@1.1.4",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-gFKSTEjcuNit1VDFlfbRGFtxJrmtixRFknfWtyh6cAA0IjwBoldl2fCEkFXQknMUgAv6LHeaQovd/ax8n3l+rA==",
+				"shasum": "2e9a90765659eadbdfd75514739e3c7bc628adbc",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.4.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1115857,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEkFGoDkeUwakuJR3F/2s7xJdSJlW/GXxF8TyTuDD2jOAiEA+aJNSYrl+IU+0vpryfPyfsa0u1tuX9IkhXvOFadyrkU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.4_1634326508385_0.5848729117101954"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.5": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.5",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "45e781286b10f542db3e776752cd20047a53d958",
+			"_id": "react-app-rewire-alias@1.1.5",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-jy4glytSWEJ3R+49aqwKEYn59bmwGI4DPqtZuJYEVc6FcqIFOjSqBiEuijsBF7INUmOeGWR7/DwUAyHqa81mgg==",
+				"shasum": "a764e9003cf0b8c6dc5d6b15d2b03b49b007b43e",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.5.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1118149,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHKpyjvZKXVHML1laWE8ZTOawxIe5MS/Lh0S/RB2UCdDAiEAuZIOJVA7y5d4NRTC/tKkVlC3nGiyjrqWB1vpym5uruI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.5_1636639321725_0.9280690091639381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.6": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.6",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "ea70dd0168a08aad7fa32883757b033a516b3782",
+			"_id": "react-app-rewire-alias@1.1.6",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.1",
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-TPkXdObtJa3jTvzx2DkQGue58Sg6Yj8zWBYfP6t0TOItBNk0RIgnvsDwhJ65Xwh6QCzHtxT6A07wnfn0zbuOMA==",
+				"shasum": "1507e48be15c8f3f9f281e9745f84c6d3079e27a",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.6.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1118243,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhvD2pCRA9TVsSAnZWagAAM5oP/1HGhUr09K8e/WyytpJU\nrx818KFh1OOZ+uRppRCTDlznIbybzIMcpcC5hWMvvSaaj9Ss+bnNvoT/MRa3\n4YDyaSgXdc1Yh5aED7+zELVW8fEwcOoBB0igC6ebToUe9I3XnD7xw4AFUM7d\nLWEaKTqwaXjcS01k/W5bfXOCfhjl8AAZTRFZrjvB/Wt6c4FI0zvpmHjJByck\ntFX/izICoj9MuSijoOZwzQC/lUS8c88g6GZ1HPFDksohv9zoHAx4Iyq0unlN\nEis6sUFPLi563mFUQevRK4AoK9zxdeoAS08IRnVoPRNbHJ0qf5LHUhpq/eRh\nGYEhY68BXp0/nc++1nFUlcewFXPvJjQAyvQHQOaxWr5M7fPuylrhvtnt25zq\neKefRj6mQ95wXqU2o9gzNwxs77N8wTiIp56+Bc5RAH/gE1HbSMzOJuSb0NGe\nysEfxvmONQKDe1ho90DHCNLuWQ98SYyIhbJqr4rt2l6XeAasOcc9PUr+x1ff\nKI+eb2CgtO/PUj608N2NdBgxuUm+uek9q4hBJACFJxnhMX4Fw+J1+qdFgDRg\ngvHyDAKmyoLCMucfoHb9/UI4fvTMJcuOfg4Ksk3aJ4Pp+bHh7ug6hbUkWQbI\nKfP9VNI1vbEFWnk9lms9HhY2yiQJUHI9J+BZXvffjKwf0+lsZFwkt7n8xlsi\nEiN3\r\n=CC3q\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD8E0cQ/Bj54mfIZrlRH0HdILOu75I8oyqJ8ogk0T3pTgIhAJA02V/YjWt1GfKcCLpT5AFioWpW82CLGZUj7raojI4k"
+					}
+				]
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.6_1639726505356_0.17700214566435712"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.7": {
+			"name": "react-app-rewire-alias",
+			"version": "1.1.7",
+			"description": "Alias for craco or rewired create-react-app",
+			"main": "src/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/oklas/react-app-rewire-alias.git"
+			},
+			"keywords": [
+				"create-react-app",
+				"alias",
+				"rewire",
+				"craco",
+				"cra",
+				"aliases",
+				"webpack",
+				"jest",
+				"outside of src",
+				"imports restriction",
+				"monorepo",
+				"multirepo",
+				"react-app-rewire"
+			],
+			"author": {
+				"name": "Serguei Okladnikov",
+				"email": "oklaspec@gmail.com",
+				"url": "https://github.com/oklas"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/oklas/react-app-rewire-alias/issues"
+			},
+			"homepage": "https://github.com/oklas/react-app-rewire-alias",
+			"devDependencies": {},
+			"peerDependencies": {
+				"react-app-rewired": "1 || ^2"
+			},
+			"dependencies": {},
+			"scripts": {},
+			"gitHead": "d5cd7ad52ccdead6685523ba4da127809a755886",
+			"_id": "react-app-rewire-alias@1.1.7",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "7.21.1",
+			"dist": {
+				"integrity": "sha512-vn4xU3E/wzh2/fGxda9ZQ6CtW2XdZB/WxAgNOdNPyUcX3hA3mh+kCRGwo19gSjzeTPpoZQwZRblHabLr6mwOTw==",
+				"shasum": "c308a1cb5337cfdda92a60f6f157093c5237df5b",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.7.tgz",
+				"fileCount": 54,
+				"unpackedSize": 1118431,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhwGlRCRA9TVsSAnZWagAAPOQQAKQ9nsP1HhMY48tXoAMJ\nO2uz0btQc5xmFi9ewQMhWwtfmeDvKnJQ3wSydBnKEXY02kGdGWOw3sgjsHh7\njhnR7Z1MPyPXabYSnMZFsq0qSxiDiVz0glB9l5WxhSquJvrKyGFS1LKil7zr\nxjhNwIoyULioWBDG3V+fgG1XhBEauqdblfyXihy+ytpBufdGsnazPwAVWrKQ\nup+H8w2xKs+x34OYNJbkorXHfFEDsNUszkwGkzra60ok3Cs3SqbwC0Jb+nSi\nh/4dJ+IwsK5jYcp2FNs1G/wVp57z9Q/b1YH+9ZqycFU+cS6EOcy/1xcVuNR+\npWHp57DjekihB3Za9rHh40ifDtD8W/0JtqGgBafTqbGEYSKVevwyt5DsoCNg\n6CXxvM7jVILQKXwH+ZCmBz08kH+oLjnYwiFs+7cjFcbeBTXbYO8BINulk+UN\n5cVYYiJbSkCxRH/GfIQawrN1PT5vnROt7vUo3Q5F5K3FSle0JpKSmlKC6dLa\nomoBhtk7Ju8JdLDkEyOp6r0/N6QQ3jq9bmWjazlE9Rzy3fh70aM+gvrukfx4\ng5VEkWLsgBkbQ6BGYqxjA/v32aM7XnPlc6MbdLG30F917CDWQ1/JvbpXNC+T\nNcQc+rsIjc1gskj0Bdiy9a0jYCw2mM2hg7ZL5Ot20V0MDEkDeYjy2sXOLYbJ\nutQx\r\n=BzpJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDy5Q/DD+Yxuu9tlNHOQmlZ+RRiPbM36uptoU2yIGBudAiBuIhcpKD6Q79i312whfC6qvVsJ2GaeN7hAK3zcTQOujg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "oklas",
+				"email": "oklaspec@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oklas",
+					"email": "oklaspec@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-alias_1.1.7_1639999824968_0.7513626557183561"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-02-21T21:00:32.095Z",
+		"0.1.0": "2020-02-21T21:00:32.200Z",
+		"modified": "2022-05-14T06:14:27.174Z",
+		"0.1.1": "2020-02-24T08:27:35.325Z",
+		"0.1.2": "2020-02-24T09:58:26.490Z",
+		"0.1.3": "2020-03-02T08:02:32.319Z",
+		"0.1.4": "2020-05-09T09:11:39.489Z",
+		"0.1.5": "2020-06-03T21:23:25.081Z",
+		"0.1.6": "2020-06-04T15:12:18.769Z",
+		"0.1.7": "2020-11-21T06:46:16.592Z",
+		"0.1.8": "2020-11-21T09:51:47.378Z",
+		"0.1.9": "2020-12-10T11:05:19.391Z",
+		"0.2.0": "2021-01-21T15:00:48.979Z",
+		"0.2.1": "2021-02-08T08:50:14.993Z",
+		"1.0.0": "2021-02-11T20:16:21.178Z",
+		"1.0.1": "2021-02-27T08:47:34.037Z",
+		"1.0.2": "2021-03-22T12:21:13.582Z",
+		"1.0.3": "2021-03-26T08:34:40.872Z",
+		"1.1.0": "2021-09-28T05:25:16.241Z",
+		"1.1.1": "2021-09-28T05:34:20.136Z",
+		"1.1.2": "2021-09-28T07:59:26.106Z",
+		"1.1.3": "2021-10-01T06:22:54.990Z",
+		"1.1.4": "2021-10-15T19:35:08.564Z",
+		"1.1.5": "2021-11-11T14:02:01.935Z",
+		"1.1.6": "2021-12-17T07:35:05.509Z",
+		"1.1.7": "2021-12-20T11:30:25.219Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.1.7"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3b8d9c50b0d4e8bc30a51cdd1c4afc6c\"",
+			"fetched": 1652763054305
+		}
+	},
+	"_distfiles": {
+		"react-app-rewire-alias-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.0.tgz",
+			"sha": "9fa65eb4f4e1c411841c19d0305fea7952a4289d",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.1.tgz",
+			"sha": "efae35607e161610bcd944dd7dd8816809043357",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.2.tgz",
+			"sha": "62b0dec88269c83575a3710642165ead05416bb8",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.3.tgz",
+			"sha": "188e2fc1fd8523da2b88b79829d14a28fd2b066c",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.4.tgz",
+			"sha": "320aa032810c3c25bc549fbb0e22e531d751e04e",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.5.tgz",
+			"sha": "cba5c2bf42424adb294131928ccf8ed39d2b8bff",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.6.tgz",
+			"sha": "27fd6b47769871d97665393e2e572caf184948ef",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.7.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.7.tgz",
+			"sha": "3f635765365b06fa6a30760758dc587b9c9bc110",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.8.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.8.tgz",
+			"sha": "09ea06a1cc9c174742a871f85ff1df35bbeadb85",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.1.9.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.1.9.tgz",
+			"sha": "2b0386430f0a5ede197554144630d3e269a3a9de",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.2.0.tgz",
+			"sha": "f18e35f9d1520772408068d29c58aeb35e60fe16",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-0.2.1.tgz",
+			"sha": "0606f221b23f7af912e0b7299fa147f5bebe0eea",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.0.tgz",
+			"sha": "32107ec4cb2f60d8eb246c3b55ba2cb8faabd09a",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.1.tgz",
+			"sha": "594b86fa087a8f31dafba377f2a5d557548febe3",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.2.tgz",
+			"sha": "99b7b524c30f7643bbfed64786f2aeda4bb5d1d8",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.0.3.tgz",
+			"sha": "02a89295a033fe811c4082af2381ce6f37b5506b",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.0.tgz",
+			"sha": "403205a89aeddfdb65a52ef9005d524f0cb8b91f",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.1.tgz",
+			"sha": "952bd0e9cea2c8bb9fbd0cd0f3df18e0825481ac",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.2.tgz",
+			"sha": "bb01f70782bdd67bb1912c561376d3f132d7c494",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.3.tgz",
+			"sha": "bde3078f2341da69b550af78e4e2472e691e5fe9",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.4.tgz",
+			"sha": "2e9a90765659eadbdfd75514739e3c7bc628adbc",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.5.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.5.tgz",
+			"sha": "a764e9003cf0b8c6dc5d6b15d2b03b49b007b43e",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.6.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.6.tgz",
+			"sha": "1507e48be15c8f3f9f281e9745f84c6d3079e27a",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-alias-1.1.7.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-alias/-/react-app-rewire-alias-1.1.7.tgz",
+			"sha": "c308a1cb5337cfdda92a60f6f157093c5237df5b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-app-rewire-alias-1.1.7.tgz": {
+			"shasum": "c308a1cb5337cfdda92a60f6f157093c5237df5b"
+		}
+	},
+	"_rev": "2-6da6ee55c97b1ad2",
+	"_id": "react-app-rewire-alias",
+	"readme": "# Alias solution for craco or rewired create-react-app\n\nThis is more than simple alias. This is also a multi-project `src`\ndirectory. Currently, `create-react-app` (CRA) does not support more than one\n`src` directory in the project. Monorepo, multi-repo and library projects with\nexamples require more than one directory like `src`.\n\nThis is merely an alias and multi-source solution for CRA\nand this is not a replacement for multi-package management tools like\n[Lerna](https://github.com/lerna/lerna).\n\nThis requires to modify the CRA webpack configuration in runtime\n(without ejecting) and works with one of:\n* **[react-app-rewired](https://github.com/timarney/react-app-rewired)**\n* **[customize-cra](https://github.com/arackaf/customize-cra)**\n* **[craco](https://github.com/gsoft-inc/craco)** (see [Using craco](#using-craco) below)\n\n[![Npm package](https://img.shields.io/npm/v/react-app-rewire-alias.svg?style=flat)](https://npmjs.com/package/react-app-rewire-alias)\n[![Npm downloads](https://img.shields.io/npm/dm/react-app-rewire-alias.svg?style=flat)](https://npmjs.com/package/react-app-rewire-alias)\n[![Dependency Status](https://david-dm.org/oklas/react-app-rewire-alias.svg)](https://david-dm.org/oklas/react-app-rewire-alias)\n[![Dependency Status](https://img.shields.io/github/stars/oklas/react-app-rewire-alias.svg?style=social&label=Star)](https://github.com/oklas/react-app-rewire-alias)\n[![Dependency Status](https://img.shields.io/twitter/follow/oklaspec.svg?style=social&label=Follow)](https://twitter.com/oklaspec)\n\n#### This allows:\n\n* quality and secure exports from outside `src`\n* absolute imports\n* any `./directory` at root outside of `src` with Babel and CRA features\n\n#### This is designed for:\n\n* monorepo projects\n* multi-repo projects\n* library projects with examples\n\n#### Advantages over other solutions:\n\n * provided fully functional aliases and allows the use of Babel, JSX, etc.\n   outside of `src` (outside of project `root` may be enbled with special way\n   see the section below)\n\n * provided fully secure aliases and uses the same module scope plugin from\n   the original create-react-app package for modules (instead of removing it),\n   to minimize the probability of including unwanted code\n\n#### Installation\n\n```sh\nyarn add --dev  react-app-rewire-alias\n```\n\nor\n\n```sh\nnpm install --save-dev react-app-rewire-alias\n```\n\n### Usage\n\nBy default folders for alias may be near to **src** folder or in it.\nOutside of project `root` is enabled with special way, see below.\n\nUsage steps:\n\n* enumerate aliases in *jsconfig.paths.json* or *tsconfig.paths.json*\n* include it in *jsconfig.json* or *tsconfig.json*\n* enable your favorite any of *react-app-rewired* or *craco*\n* apply this package plugin in config of *react-app-rewired* or *craco*\n\n#### Enumerate aliases in **jsconfig.paths.json** or **tsconfig.paths.json**\n\nCreate a separate file `jsconfig.paths.json` or `tsconfig.paths.json`, like this:\n\n```js\n// jsconfig.paths.json or tsconfig.paths.json\n{\n  \"compilerOptions\": {\n    \"baseUrl\": \".\",\n    \"paths\": {\n      \"example/*\": [\"example/src/*\"],\n      \"@library/*\": [\"library/src/*\"]\n    }\n  }\n}\n```\n\n#### Add **extends** section to **jsconfig.json** or **tsconfig.json**\n\nThe **paths** section must not be configured directly in `jsconfig.json`\nor `tsconfig.json`, but in a separate extends file mentioned above.\nNow include this file in **extends** section, like this:\n\n```js\n// jsconfig.json or tsconfig.json\n{\n  \"extends\": \"./jsconfig.paths.json\", // or \"./tsconfig.paths.json\"\n  \"compilerOptions\": {\n    // ...\n  }\n}\n```\n\n### Configure plugin for react-app-rewired\n\n```js\n// config-overrides.js\nconst {alias, configPaths} = require('react-app-rewire-alias')\n\nconst aliasMap = configPaths('./tsconfig.paths.json') // or jsconfig.paths.json\n\nmodule.exports = alias(aliasMap)\nmodule.exports.jest = aliasJest(aliasMap)\n```\n\n*aliasMap may be filled manually, for non-typescript only, see api*\n\n### Configure plugin for craco\n\n```js\n// craco.config.js\n\nconst {CracoAliasPlugin, configPaths} = require('react-app-rewire-alias')\n\nconst aliasMap = configPaths('./tsconfig.paths.json') // or jsconfig.paths.json\n\nmodule.exports = {\n  plugins: [\n    {\n      plugin: CracoAliasPlugin,\n      options: {alias: aliasMap}\n    }\n  ]\n}\n```\n\n*aliasMap may be filled manually, for non-typescript only, see api*\n\n\n#### Enable react-app-rewired\n\nIntegrating `react-app-rewired` into your project is simple\n(see [its documentation](https://github.com/timarney/react-app-rewired#readme)):\nCreate `config-overrides.js` mentioned above, in the project's root directory\n(the same including the `package.json` and `src` directory).\nInstall `react-app-rewired` \n\n```sh\nyarn add --dev react-app-rewired\n- or -\nnpm install --save-dev react-app-rewired\n```\nand rewrite the `package.json` like this:\n\n```diff\n  \"scripts\": {\n-   \"start\": \"react-scripts start\",\n+   \"start\": \"react-app-rewired start\",\n+   ... // same way\n  }\n```\n\n#### Enable craco\n\nAccording to [craco](https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md#installation)\ndocs install craco:\n\n```sh\nyarn add --dev craco\n- or -\nnpm install --save-dev craco\n``` \n\nand replace `react-scripts` in `package.json`:\n\n```diff\n  \"scripts\": {\n-   \"start\": \"react-scripts start\",\n+   \"start\": \"craco start\",\n+   ... // same way\n  }\n```\n\n#### API\n\n* **alias(aliasMap)(webpackConfig)**\n\nThe function `alias()` accepts aliases declared in form:\n\n```js\nconst aliasMap = {\n  example: 'example/src',\n  '@library': 'library/src',\n}\n\nmodule.exports = alias(aliasMap)\n```\n\nTo make all things worked, aliases must be declared in `jsconfig.json` or `tsconfig.json`.\nHowever, it must be declared in a separate extends file (see section `Workaround for\n\"aliased imports are not supported\"` below)\n\nThe result is a function which will modify Wepack config\n\n* **configPaths()**\n\nThe function `configPaths()` loads paths from file compatible with `jsconfig.json`\nor `tsconfig.json` and returns path in form acceptable for `alias()` function.\nThe `tsconfig.json` is prioritized over the `jsconfig.json` in the loading sequence.\n\n```js\nconst aliasMap = configPaths('./tsconfig.paths.json')\n\nmodule.exports = alias(aliasMap)\n```\n\n* **extendability**\n\nAs any `react-app-rewire` or `customize-cra` rewire extension this can be integrated\nwith another:\n\n```js\nmodule.exports = function override(config) {\n  const modifiedConfig = alias(...)(config)\n  ...\n  return someElse(modifiedConfig)\n}\nmodule.exports.jest = function override(config) {\n  const modifiedConfig = aliasJest(...)(config)\n  ...\n  return modifiedConfig\n}\n```\n\n#### Workaround for \"aliased imports are not supported\"\n\nCRA [overwrites](/blob/v3.4.1/packages/react-scripts/scripts/utils/verifyTypeScriptSetup.js#L242)\nyour `tsconfig.json` at runtime and removes `paths` from the `tsconfig.json`,\nwhich is not officially supported, with this message:\n\n> ```\n> The following changes are being made to your tsconfig.json file:\n>   - compilerOptions.paths must not be set (aliased imports are not supported)\n> ```\n\nThe [suggested workaround](https://github.com/facebook/create-react-app/issues/5645#issuecomment-435201019)\nis to move the paths to a different `.json` file, e.g. `tsconfig.paths.json`, like this:\n\n```json\n/* tsconfig.paths.json */\n{\n  \"compilerOptions\": {\n    \"baseUrl\": \".\",\n    \"paths\": {\n      \"example/*\": [\"example/src/*\"],\n      \"@library/*\": [\"library/src/*\"]\n    }\n  }\n}\n```\n\nwith that file's subsequent inclusion in the `tsconfig.json` using `extends`:\n\n```json\n/* tsconfig.json */\n{\n  \"extends\": \"./tsconfig.paths.json\"\n}\n```\n\n## Outside of root\n\nAlias folders outside of the root of the project currently fully functional and\nworks fine but are not recommended. It has more complicated implementation which\ncurrently named *dangerous* and exported from package separately. Due to complicity\nit has a higher probability of being incompatible with the next release of\n*create-react-app* until an update is released, since these are different systems.\nHowever same is for the base implementation but with less probability of being\nincompatibe with next cra release. \n\nIt provides aliases with the same feature set as the original `create-react-app`.\n`create-react-app` does not support aliases and additional `src`-like directories as\nit does not supports aliases outside of the `root` project directory.\n\nAliases outside or project `root` directory may be implemented with some\n[limitation](https://github.com/oklas/react-app-rewire-alias/issues/3#issuecomment-633947385)\nof feature set. That is solved by disabling ESLint checking.\n\nThis implementation is moved to separated code set named `aliasDangerous` to be not confused\nwith `alias`. To use it just replace import like this:\n\n```diff\n- const {alias, configPaths, CracoAliasPlugin} = require('react-app-rewire-alias')\n+ const {aliasDangerous, configPaths, CracoAliasPlugin} = require('react-app-rewire-alias/lib/aliasDangerous')\n```\n\nAnd replace `alias` with `aliasDangerous`:\n\n```js\nmodule.exports = function override(config) {\n  aliasDangerous({\n    ...configPaths('tsconfig.paths.json')\n  })(config)\n\n  return config\n}\n```\n\n## Tips\n\n* **keep only one `node_modules` directory**\n\nConfusions in deps versions may bring unclear errors or problems. For example, an application\nis not working without any error. Or another example is error in `react-router` - `<Route>`\ncomponent do not see `<Router>` when actually code is correct and it falls with:\n\n> should not use Route or withRouter() outside a Router\n\nThis may be a result of some confusion in `node_modules` folders for multi-repo projects.\nSame take place in plain `create-react-app` if somehow one or more additional\n`node_modulest` directories appear in `src`.\n\nTo avoid this problem **use only one main project `node_modules` directory**.\n\n* **keep away from working with nested project**\n\nDefault bundler configuration doesn't assume your configuration and may mix deps from\n`node_modules` from different projects (top project and nested project) so this may\nbring mentioned above confusions with deps versions. To avoid problems:\n**do not install and run within nested project directly when it is nested or integrated\nin another one - but only independent top level configuration** Or consider to eject\nor configure Webpack manually.\n\n* **do not relay to deps versions synchronization**\n\nSome libraries use `instanceof` and other type comparisions. For example , two objects\ncreated with the same params in the same code of the same library version but installed in\ndifferent `node_modules` and bundled separately - will mostly have the same data and same\nbehaviour but different instance type. Such libraries will be unable to recognize their own\nobjects and will lead to unpredictable behaviour. So **use only one main project\n`node_modules` directory**."
+}

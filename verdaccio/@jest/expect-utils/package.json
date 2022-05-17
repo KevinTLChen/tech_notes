@@ -1,0 +1,1398 @@
+{
+	"name": "@jest/expect-utils",
+	"versions": {
+		"28.0.0-alpha.0": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.0"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.0"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "89275b08977065d98e42ad71fcf223f4ad169f09",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.0",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-2Wcr4Vkr/Vj5KJylG5qdE+F0P7Y8qEhNKW3S/nsk+xa4ELqlWGRIJLR76q8VIAD9Dir6TTrmELp9uAwc/JdZFw==",
+				"shasum": "a7f8d4e48011aa4a59168f8d93284f2f9b568d36",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24354,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiBVa6CRA9TVsSAnZWagAA5iYP+wcVb1VSMv6J2Oaur4Va\ngt+6sFXAMdRsJ1txtuyUDvk7YpxHE6ls3nxgX1edBYAFYh/lrt4k6vrE5IpK\nh6CgkBFgRLTcrSUxkK9kSMP9hPH2yxLEDXFJykxL0BbTzBjU3HHNBPqdA/3O\nndNuoxMFP6LA3d8u5WuNeKIWcCUbDilBn3zaIIwVNc8eYCl1zhqJRCFIHgcS\nW95lZ1nivmYf0tMJLyqJuCt/fbTHdo6X7lXmFe8p17MpvkAWozip6p0NAuWz\n35rcC5QzVkjmJBNUsvbqkJve/y53B71B4Kx6oAVhin8nX7XxhwSfpN7i5MSN\nMrj34VqIXC10jcCmE3ZPS0WZ1sWubL6461p5ztGcvtWWfcWCbIVlrn269JLj\njlSVX1eRXb5F4ZvwKGaoCTZhczx1l3jqRwDKTf44mqwtU0uWG4rhfJ3ajdlm\nOxHk1cnmTfdummZh8mzkykaKXbj/KyResp3GIP2W0/NSZZaCfESexd+M6pAK\ni77eLBPJSSvp29RceCLnJVWFPP2De5Lf2ZBiCvNO6r9FlQLn9WIuT/j/Uhh2\nsc2p0i39omOxqkeZcMBDcHKDT3MR9ZGC73hapdVYIO2cjlVEqdjk77460R7Y\nQn9vr0e8kgFy5dXIPWzUzmnR1SUZJSxgaPLTSgTtX5s1KhIBwHKZ+pCbioea\ndO0e\r\n=JwOI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDrTfv+VcIE+KoCnXLU00pCex8R+f9IBqQIz/fBIEad9wIhAPxhHjPr0QYjqAT6Y3HfskSVHE2xl1bGAPjPQVlBtSJu"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.0_1644517050537_0.19230723164528318"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.1": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.1",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.0"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.1"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "d30164dde1847166fa0faec98d20abffd85e6ffd",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.1",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-b9zSTU4m2G1jgM+ekU1+yVHNAYMOmE7cVtJGKr3g/QfqVVwtE5hRdvgGXi5EbI+wbKnUetub6tVutZbQfKrxrA==",
+				"shasum": "4ade48e35ecd3d01eec4e5277fb6f37816761dad",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24354,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiDBqZCRA9TVsSAnZWagAABrYP+gP1NBMnbVUKCVoy+aWF\n0xffHYQVW9T55deIGO3Vj/RvbuQPbkBdiK7pViQHkL0bVZOPlVvCmt934u2U\nvwHLmOJpzXaAG4GSTerDNsJRGM2L9C8qjGRq1o+1YYBZZ8eIpMdT1Qb9qMcj\nKwBaMiJJPHGTN1T5lRf21tL4cnYOKyozumNcxL+JlmWHyYc1gfzo/YlFxdIw\nQr/o0/z4oWcCrDdaqMHKtuNU+5hoWYkEmq6+twYgajyfH/6avujUAcP6rh6U\ntdMCC4zUJgrDgfm5pneqnQXCG3CwwxH6K+CoJPKZKIzRKx0UD41zv2Kz1HFR\nGjVLF8vCNVPzBGPWd6EYfi3oJzS88wGobuwmRIzDDhoSvwn7OhUcphwFF2Kc\n7I0Ydg4BDPQC2edaLyWLoxITaSltETIZKvZvmZBG+jQSeZjhoICTgHCypZ0l\nB6ZuNnjN+bZKSun3UMh2Bxq6Uj3A6MQcqCJvUnFLzzK7aaSn1Ae5GhNTMZVi\n3HInVLccVKdLPPiBn4JMo9Ce15xP73ZVWP7g7ABNzhuAlHXrCGMoONn09kSQ\nAh0+Lj6nmRfzl7crbfCzrmwhIAxpkbYIPNXpJNvLv2NhmT4NNRQ/MR9+26Um\ntkmeAGdYZ4mpqUMvEVkOYCZgDSsYe2eTvqBj+HGcQEDt+ZL9WbLhLoavO0y7\nDuiP\r\n=5Rw+\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCpILrBdtVfQsRj9SC9kJEQ7wfvRpx479fAS42SUHqnVQIhAM4xYrR6+Du3z4As0YrNly8o9bFpIi1IBJvG4os4cJ8V"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.1_1644960408952_0.9635472117761343"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.2": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.2",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.0"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.2"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "694d6bfea56f9cb49d0c7309cdbfff032da198c2",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.2",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-DEKs4FGKL+Qf3hU2CUzHI1f9gsgngmJt7oGHLDLo8gvgdok2MqHQPG+n0zMmq7OAaoW3hTQTBPWW4Ug/zxjXOQ==",
+				"shasum": "ca891e797d7c05cf2f70da0e77e8ba0c390d5dc4",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.2.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24354,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiDT5tCRA9TVsSAnZWagAAQWwP/3hZkwOOvc5qlu5CPMfJ\n+tir6gbzQUXt1eFua/Bzk7f0317uwCAdZAmo/JYSvktilr5iIx+4TWFxqST4\nWJuTVl7CCyvyU12nqX9kmgyQkDG5S9LBoRhGx3egK/O15ySJsZLnFPrtfIeb\nE8qMtvvooZA9oOnxItK4o/t1Bl9o/SPAAiVksfbLDex+SI1zrGAO0vjI0LTM\n73l+CiIcTeOLLBkI7jL0jdhFgaMf44OmiSvNbibBroLs8UuP1cb3lxuymVK9\nUFDRoVsRwj0Tgud3relpCkATjerMQkH8cMXm5ETA3DDsoqHuik2x+H3wM1+E\nEogq1/ZCgn0GEiElTUhV6353r6jMgqFAcxU1vVJLq+T5HAJ0rXeRwABA4rS9\nYYmf5T1kI16LWWEeoGrpVPxm7anMeKUTKsMR0ZnGwaVGEwy/+27wqVR3R7W0\nqDJPjHQUxk0xkT92FAjY0nT9kezb3YHKCpMDy8OFrEDPRiawpSWbR2rCNn1w\n7Ru7umP2uq4FKMBV/BtCracD5l2mLCUvEES6HI7ErQAwTU0E9vOphaUhsUQN\nR/VtH6TinhaRiBS0Qm3EYOs4SBSiaf0Uqc8EgmAOZM8Qx8FEY0hfMNczYZOK\nLG/Flp/Ja67Xv7OdckE+o6+wCCDViFG5jMqixFm0qpAkJdSIUN0Sp6IxqhC7\nS5vB\r\n=1W7P\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCc6X701es0wQ6yT93e73U+XSejt6NfUvbmJMPcqNYHHQIhAKWh41tylTkrgO+wNO6xjDrwgnNLPZpdnC9ta4uUBeWq"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.2_1645035116824_0.7978368079039273"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.3": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.3",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.3"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "fc30b27bd94bb7ebeaadc72626ebbdba535150d2",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.3",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-riTPBZU8sP+AwTdS54BswUqcFUzbfE+X+7fEbWk1RYtM8j2eaoRHXwdnuTdNw5Z08b9sCoRSxGuQu/TLXuMJdQ==",
+				"shasum": "0ed65e39efeb5c8f6fb0a0e2255a57bb7fd2f149",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.3.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24354,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiDmzdACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpjcA/+PuutzKoO7Dct6aT0NkP+hckhq1pZtxJSxDrSp0wbwONCvgIK\r\ncmRiBibmDSldgcRkRDYioCOonXoYaOhzQiRUT4Nf3qjdHLFH29W3hVGbFQWT\r\nYhOq3K2RJYzLdAwgCxeroVlCOgxVEH5dpLKWMquyQTqy3+Lc9u52UrIz1S7c\r\nPlbxTxHD5S7NWB0WNfMsc2uGTAkeIjnM9kHHYTesRe+VfKGDeSSD/JBaFtB7\r\nfiR5ofyyuWtrXwK0JZoHOb6HLJYHst7Yx44o86k+RPEF95D6Q2AjLrKfhDSs\r\nqoP9SxHpPN5F0d39FnVHcS8rfdy6uZ+VpJ4Swd+/0BfSQ4let+kb0Xkdp2PY\r\nxCS/JTCAmE0vse8QiexIeYg482q+TfwPQiDG6kEzBnMY8+UKowzCmKXtYPVO\r\nmJJYOkgXhdQVru94lUYwmpQ6BSFATrZ80HKw9iqxijYs4onepZyTZf3fJyOF\r\n0Xviz55izMrqDufH0b/kYsEnQkGavHTTyZMSFqku4piDfu3KEDTnna+CkMGS\r\nvUVFk7fP+xHptsQubzZNjpxyL8VItLHzPF55L5TM9yXVdW6qV0HcuI+jbnJR\r\naUYrSEN3XhOSXWZW07fxXqWCSYlbVyUPYWrOQ8Y6miAF1y20n0/KH0+4Y2D1\r\n2BuK4ztrZVUdZiIfvLYpvChyTWEq4+RoilI=\r\n=8O0d\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIC7B458eNL+apg1UimSv9blTnDVYtrkkAQYRJa6QD1KAAiBD7vFMSl0BgOUqIUps0FyhQ6nt5uo1Uqv/IFGqTvi/zA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.3_1645112541308_0.7379348188719019"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.4": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.4",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.4"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "c13dab19491ba6b57c2d703e7d7c4b20189e1e17",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.4",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-G/eiFO6pRGgB9KkNoupI+fGeWp/FCGYK4D7RNmDKRmpMvBpIkJLZfX3zJQRmHL73nN5PvE9FQ2raZRrGt5dasQ==",
+				"shasum": "dc4ce9f1c15edb90a4bf9fe055279353870199ed",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.4.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24017,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiFNOCACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrJFg//fVgpWNf03i1etUgVTbD7lN2hpKXi89fcGBLgWhVlURZjzBDj\r\nlsOIEg1TbJzweinRBpBHA0+nGE3AcbjxcLGUF2Z1WvsGBfXbDL44CrBXf0N+\r\n5yizLlV/lzTCere7VSeCussMub4CgSHbHgJ7ORZTb0QbA7L2aaqqH8oT/w8V\r\nK30TTelAIi4ifzlWdiR0t1sdJMTY5cgsrUvACdikTLESPxNIbG8N8FwM716J\r\nYXSIPs2bexEjAUtgrZGUcvnXWU8o/NNEmT695+AAc0Nsq3Z2djNiiPcdR/1/\r\n9ljewOiVQ2bGM53RQtu1TWAGIaz9n82AQqBfO1Wcyh9n0deTMEkkJ8aETKNz\r\nYK3EdCg3K3vuM6N9W0yH1+wDD6vTea+9JD0cul+D/On8XFJMIBkHQO8xYXeS\r\nUxj9lxsaHg2XYrqUEFGwZVwSJ/jVf7UH16jLgljNl9j9hKWcqKaEFFcDOUNo\r\nQLi64HmlHds1TX4saaLnVRJJvyDqZcK54JjLvEFrG6WYqiAKuWjc3xkc1ilf\r\n7xtD/q3XWlXrwx4MVBEs4kLgb2nn+bfhK77CKyH2QoqgsfQZVnjnuhyLXeEe\r\nwWqghCYIkw4w+el9gyP9/62m8Ha2yLM2Qn4e4kT22HcaOVlLVaW2F1zrv8QP\r\n/JTrhl/QFD+6ieAs+dG/0kb+qZx3HsD2r8I=\r\n=pIWp\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCjV4ZTlyWYgDJyYm9PfmA3KYhZhNQmAmIFw8TI/BBQ6wIgZvDGAvujbeYoxulzTEiHLfEdGRTy6t/o08Hn2TBqJ1g="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.4_1645532034404_0.13400283778028244"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.5": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.5",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.5"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "46fb19b2628bd87676c10730ba19592c30b05478",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.5",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-WL7+Mc/mdzE+vSQ9q4GYpQkhOShscw+kMHDaP4jTpcVLl8qfg22u8wLClsUaxOnnV7Kh2N2khXpR2yLVEq2VCg==",
+				"shasum": "9e0ae80304a229bd62f6e01320305d8284fb6957",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.5.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24250,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiF/EtACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpOsQ//bsDEPw9WyWPGaxYnsGhDkoOcdVIrtfMkrKCi0f2Xrbvu6xHW\r\nHlnFNleY746WyQo1nO5e9Ch01pKHU3k4aMewT6Lyyf6G6niPqIjWkHgsgHrT\r\nrRiwQy+AUbPQQO0jykh5C3KL531zKrHFd76IAZWfZ4vY4bN4pdjxSkChOvsc\r\n2Rti6/bA22KSfOWCWH1bQV35i9iTrUWmaO4vvuNKlazCoGn4RDQt7OGs1HNR\r\n9jxf4bB9JnFd5+dudfkvIxx9tkabt5gqE3UgSA6R+j1AiR3TQgWSRNNhqqtE\r\n+A1mdscUvirhBnzeg4yXq2sCjRrSpcK3AlN9s26jWcSw14bbvNDwPb1KtZmJ\r\nftgsN3xiQYQWLR7MpLUjoXxksfP48owQplns2rehvg5NMtw0W38PK85K9oO4\r\nyelsoIDOJWDrv6fZWtdQP+Rvei6Se8Oi1JNHuoCBolvgQt0NOJBJaleadpAO\r\nc3CR+RD6xvEz3ER7ym0tom10B8a8lVwhBWW5+FV4IE+Nf6szCYXom5ZeI36K\r\nuysvX1OxMSNJadyd3tT6jXZf7KtmvE6343sTAA2sXXHfK5UEufCe94WrxYi+\r\npXCS/MCbax5jfzChDdZTq1jjOdqMrR3RcSwcePKM0XiIJKeaHTt/gUo56qZF\r\nMFdOrwX6WSZKy9xiH10U748Vp2KV26nnS2Y=\r\n=Oq8f\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAlPxPdZi0fTM9+09wGWQy/CWsznTwgLe+xrVGtaTvbHAiBy55xRrjWMf8RdsxwLlo0Zw0aMnG1KZ574ferqA0bzvw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.5_1645736237179_0.749154687752726"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.6": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.6",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.6"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "6284ada4adb7008f5f8673b1a7b1c789d2e508fb",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.6",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-Y4K7HTuHBb4Yzq6KLQvMtr903mK0WVmyIeScugfahRjyrpr9OA9oUnMtQwufOQef+ufJigL5EwT3Q2KI7WzJcA==",
+				"shasum": "d2aab0423083e4db624b911a8d596c9905116d07",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.6.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24250,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiHdoWACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrYiA//WPgVSDTfr38NLQPbhtjotpb7io6epR2aq2H0F0uy7TV9kJXG\r\nqG3tY9y/oXaIoxMPRKL4h6wXiUhApwf/euFTW0z/5lwhGi3IU2cTA0oeBggb\r\ns6A4t4GrXpDP3jS6nfKv7eg1baAZqrtYWsVT43tGTJIMdkpywdwa0+S3WyUR\r\nIE5vGXT39S4bxIBMWOf1UfaPQAbWA+23zpJMv41ne7VjFGQmwObRcn9+DzaE\r\nb4hNB5rzX4pZ9fKSyB7/Q8Zxk2jqST0y/MS10MEZfpC2nB4xHyIMabS5y9GX\r\n5tDW08LWs3u2RvbMfXZA6WzPBn8WyuuikQsLAb9qXB/3BVcrL0HT5AvILCY3\r\noK/ZuPiN0WCRBweNtYxnZn1kwegjPYW6upL8OxQvSVHb+c0uiTFd+nozRhNA\r\nMi3wLLkfWr1PMVXETFosBKC2Jifw1JGaeUYz0PwU0HQEs6iAwsJGtSgInZTP\r\nc4SrgESCrretlZkCS0MN8JOi3NgGUALfbYZBEEDVQT1c9BSIba9tK0iQYMAw\r\nsKhwWP6Gzc3HXX8Vgt6tew+GWpb9U4w5GcR2qtMOQ2qy9K7ntXBFFS7xBzNV\r\n/u0H9VE0qBMbCs2664kAC3s49BFV6wvcDMOWCh3tkqAhnFUih9360I/CTjir\r\nu9Rt4OOOykxetOfom0RUFMbcoyIw/s9jQqw=\r\n=/iWq\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDgJjk1rKHffZN7b7aUzQ2QAxHu2iiE1YSSiVob/hFLOAiEA+pskUMCuXh7mP2XzJPoXSCw/dsHnI9cdl4QYYIA+M0I="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.6_1646123542323_0.07766184714095203"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.7": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.7",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.7"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "06f58f8ca70abc9c09d554967935b58ce85c48d6",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.7",
+			"_nodeVersion": "16.14.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RKq0u0gooSUKYPkAFXfKk9976WKMPbdhQHHwYg8OSIgg07LawerF+XcqIj8ZK11JeM1oj2m2CKP0W9K8u5K+yA==",
+				"shasum": "fe711e3e0d3b5f3b15c5f56362b060dc437defd6",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.7.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24250,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiJIbAACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmpe8Q//U4Vrr+0woC3SdGYpWPCWGf7uS/UyC6/B27qAh+AN4/k6zpaU\r\naEhBdWk3Mpl+WeyMyTEKDQ3Chgr6TYjEWi+T4ksfkt+s42bkHFEhtq3SaMMU\r\nK+CgVh8pYCKUjuTnY7D24cQ6Hq2cJaOtlEMVP8+LvbgECvXFlXLqmdL8rY+J\r\nQEZlFr3nabgdfEjh21FrCYp+qFzCd2RAaJKJCU0CEHI6mkytlDaHWG1eKfcn\r\nvWYvXFvaN8pU8MLUyh8y7UPws5aEPgKQVJ3IszCmaWN0T0TYoc2oWDctWwmM\r\nVRhcH/1Zx+5PG0DPpJ5YnJJirq8bnWlbafBuu91/ja9C1EENBkKAOwubApU3\r\n3uROrG2PRi+KH0tNqx/x2XxeM7vsB1Bo0raq3fgvX6BO7Jz2yXL1TNPZf2VL\r\nUPktoNqMPuQ+C4/kHGMYsdKt/SmUAHj54oVUEt6qSElbJ9Lpg7fTj7TuxbSN\r\nqXBm+cJ00+830Z8+pKv1gfgHNh66n7Dbr/D11e1ckAaHbeRYrJLgSB50DUBU\r\nEWwOJ5rKGyPAUdg6kRdkdmFvnNW4cnKUlrCemKgSLEGBrWDo4diung+AvkKt\r\n22fuF4w4VbpxaO3h1BOG4IGZstMZvbLuPiuARU0T28BiwMPTrKOUQOUSF73b\r\ngOgQFbaKgmG7TXqIxIWQaBHi8oPNVNMs67g=\r\n=IR/9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCFNjjlCeyMpwrnEjn5fBz/W/oqQvPLy2RRAtrAk0cPaQIhAIE5k/iwk8fIBthcmdtjxSKqYVUgrgvHjNZeN/SPpa9m"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.7_1646560959932_0.6350497130234194"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.8": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.8",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.8"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "d915e7df92b220dbe6e124585ba6459838a6c41c",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.8",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ExlLTbwxruDcRGasj+ftq4L6uAaRQY/ZKW3RC6GHpgW7wg8MfBwjxkAfB5Tyjel7net8OJW592qKJ2TNHXt62g==",
+				"shasum": "36df54300ed1029a410a77e34b167cbb8dd89825",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.8.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24903,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEXNsjYR69iasE7mktJyVEZ9SuhsMsf2bzJBWS7AL2bQAiBXhMqaMe+9azsW0320dJ7j3LNItwQpgKJxAKdb16ryBA=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTFlbACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmriIQ/9HmBqdc+bKgotfHNFDXF+vXS81nfO4SNOJr38Mfx4qHS3Ok6O\r\nc1GDmuufMjzeXRIzxFUZEh9pEBTih0aBNQfJ1T59rL27ODY8X6ZNY8bE6lT9\r\nKBBVz+gJ/r/Zm7IcJUsnoOUUOyZaiU9OmijHxAZYa7CQEoPUEgvxfVHqJwFi\r\nhyJThrgfkIbkYLQhD4Cxcc8UHv0dBmNjXqWQOqLtXP+t90zobO0PbX0V0uQ+\r\nWxWWHwD3hpiDLxgbOdpKiUx9MV8+xhldXTBFbbfeVESHCps0n6mkgpkJK5/C\r\nzwUGmv82pLE/kZfWYON2gnDCv81UZnOPJJwXBzGn6tXjZYlnGB4f/LLLJwC4\r\nbMaACFrwUVhHWjghrAg75BZTi/MhV4KnOHZirF9Gq0dLmH+gRRHU879m6ps8\r\nBQwEpuXE1w8zTetRrdFfxh1W1OpDAg207yMagor5NXF69bjCF3Q77vXgJkvy\r\nczWUZjHAwlxxC2VJUJPQejG/sEL9Kp2yKKUeZaRQueUBMF76YAHOXoIDYd6l\r\nyNpm7Z+bItGTySP+Ajo1SHIoY1rtNroqRS6LeBDeC6NieCFufaHM9nrbijl1\r\nZJzpaGPMnRhAQAgaa9GCj57Lf2GJcsIShlTGwVPZGsnYOJhzMP2DA7JQtqUQ\r\nam3yWIZXVWvH/5sdU+SZqgk+j8x5rKhfH4c=\r\n=3Ris\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.8_1649170778985_0.8977605416682708"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0-alpha.9": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0-alpha.9",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0-alpha.3"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0-alpha.9"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "7c63f5981eb20d4b89a4c04f3675e0050d8d7887",
+			"readmeFilename": "README.md",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0-alpha.9",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-L9eqYZnyA8lHLBlqyVkc/k8X3koi73wcUg6Abz7KO7S6IxB2is+qQP8rcPyoxN0cyqjryRnmCZ3pLqiDuuwj7g==",
+				"shasum": "81fefe8e0523cc0cac56658ba019ecac4fd17bfb",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.9.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24903,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCWf/JeMJV7ZDx9Ai+nzt1S+d6V4OhgkguCIda6wnAlIAIgfDRjZ0NSTmsRbjN4KmzzlKB1UQLSYxcr+9IvFSl1dzY="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiXpYCACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoM9g/+Kt0PlwNnN1NQi+x+F6eSx7LF5N5i9KAaicROCgGM3bWmlSZj\r\nNPU3rVMmKuMVM/oA4zEo86gdSXou8IQe9lhoUOp9IBqki3k9htuQB18f9Of6\r\nHVhxw7NYWUSY4snY9LMBPJCJuM2ENYbUxKsFKtSGzzhB+CVOX9xvt8rWGmkq\r\nf6+SbP+6Inz1m6y0ARC1GrD5FEbb5rQ9cg8pLLEwbJQGAsTPH05+YQUGsqyl\r\nNqRiiD7wk0Y1YphTcTwAOFKOY22oqt1pEfxohqrx5W9FxVR0Yq3L0ZvjlXKO\r\nqNXOHPAdykaz70vnswAxd6Aem0D/hjZzKIdqMR6fq96xPWMgv40MRRgdq64Y\r\nRcW1fZDBTB4a9BRx/CKCgWXAxjEPiN4vJkZeFZd1WgXyD04cJts+nHs3o9p/\r\nJovMvblJ+nntoTqHbxuRoDT4FxK1tnXrVBMSW52SpPL0/AND30l8KFjqILjO\r\nhJViBp03zTbhd0f6ktHxPGW1i2zJzR7SqZnnH5R06Q0WHxN/gcVNV+JIHVff\r\n1s95g2OfEO51eD6D3sLah11VCYi0HOACmobtdg81a6awkdOn1ISjtOIqSmPg\r\nLoBVyQYWvHQoNK+A0S8kIVgImxKEbvsBKokoT9n4bgMEDyq/5RB3RYcrkYeI\r\nO/6as2y1MAzsnMz13Zh7WmGC7C9QaagF+8o=\r\n=YsPP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0-alpha.9_1650365953799_0.5946555865019822"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.0": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.0"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "8f9b812faf8e4d241d560a8574f0c6ed20a89365",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.0",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-C/lpxRTC60wl2TIwttFm/qoccZe56kpE8MVDZUJjtinxAOuPFAolGgcon3qs2ggOL2+9zsTSbt648rB4D8RGdQ==",
+				"shasum": "a074371968c80ec71af3053f5083d8e9a7529c39",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24879,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCSy3xbR98IyDnHrFDtXR/KCQ5Si3XmYFEGhnkafIrSqQIgXqL4hbcjTXEGLcdPExEUYmN3ccfnaeE143H2ZZcvCEk="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiZo8mACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmozCw/7B+NRy9lWvEhDb+uQFCvhpkgSxuO9gNBa9vDRQpyEusLLexK6\r\nvIi9C8lP+wJghwkJwcP+SWTWTBWJcZwCuh08//PyhO2YJfQe2Ur9KpKGhspL\r\nhRs6eWhvHhuS4Qh5bC5thEOBpwX3mKo/AK2kVbRrXfWrfkrNjjNKciYVLE1w\r\n2u/vQ1S61201GOKjlP1u+3O4tPwebrmtx+9+RmkQvwTY1cqu+UG65cHWBmek\r\nzvntWdobTcskzUNb9AdZavT6Kt9bz9aJS16UE6CDtPqSCdpfe292u19CI7x3\r\n3UYvVL8HPsBh5x5LlRGpeA9lFLvaRJEvTTMQose63x7wh08ZvngyTzPYmCgf\r\nfC7JSPUh3hD6/oQUd9/RPxZv4+kJTWtiy9TF2WqkIEgOEL1msLpZUKW4TxEn\r\n0FEFj0RwnAjFcqF5BIGs6pOu2cHeGmp/SsWhnMvLSfkq4CSkLiKtzHVhdYJP\r\nG1myO0ywEYhSW1POEoHTrvz5J/lOb1H8Wz7k1UZoc8IhLlVTWMDsDBPByjxm\r\ng0za+ENodUzYCjHL10yZUc76uVEe7c+ujtUyW2RKXgVaNDoiGhZu6kMsaVqP\r\nGKyZZSRSiYIJHTTXcWSZmT33/LYp7+t19R7OeMDBrsS1G+OyT1VLa80DMhXz\r\nt+j9AwvLtXFJxMCzhh1E6mgZzIhOXZQJD+E=\r\n=LC6p\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.0_1650888486547_0.5639144424116589"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.1": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.1",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.0"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.1"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.13.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "0a08639e4299f07becf1020a761adfec83536018",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.1",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ctuvt7SeoVlG3P2eemtq3/TF5a7ncnpC18Ctv1BjCfBjkjVKtAkDblw6qhx24tZlYdhm0lrihwK80pkzmkUctw==",
+				"shasum": "c6aa0fb629e3d205384406c2e6cb00b7916c597a",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24879,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCeRmu5Bs7AiSJgawnvV17aOC99buZHmZBc0VRawkSn2QIgcCB/+/CudsfbiPcr/n4LcropQ/n42n1Rd2MBwoBPj2s="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiZ8M4ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmosiBAAlOMmw3ela3A9KxGMnfwjGI2Rb8kdPIXBkTxCRGVYhSlXSMi/\r\nQYy484tcg9UB7QIfHgMdL2BNEv7aIBuA9DLL9nCOnspFxPtuq+xa14DLrGuc\r\nr39E3LLaiWCeyk3/7kpFVuGPB7Ss7LIfETsTEUZ2RaMrTRzNm22vrUnMTdvW\r\n89ia9F7NMFGS7zjpSd5xG9W0K/8fy2I7w5TCDTpvvs6Db0HRxCz9H4A3ruiW\r\nY0l81TNW+J61IaK6nwmeRNhN4QNnuaKQRCGoZy89OgYxOqfiRjSYoSvJi0x0\r\nnFPoJZySRuDOHK9pPtHfwjZjan7ZEmRCXPcl96wdDVLwmDeJrDNWB1ytyeyT\r\nZ4F7lk6i+1j2YeZy5qGG3uuArV1eozheATjSnMUiW7WhWbSM/K3V4LVTKwxe\r\nX4z1EymBabeEQ4kLlg11EEm81qS1j2NTtFlB0ckZc2toIugr/svu3Ju8EpH/\r\nfy1dHs5zG4NRJQL5VR68xCT5MAva3w68R3CRtQPvwPybFBD7UvtptdW2f53t\r\nvZ5fxF+ine8xd5hKfzT3tzYtQiQ5g0Prjsn/I3OlYUeonejnWHVcbz+xOZTY\r\nxVOeLma4yJ7H/bV1jbbOZrm3RmyrgnzqLjAYKww5Y400IYvYZSlnIZUIXZ4a\r\n+TKzacTjIPrxaDqQ5PxIt76XiNdpymEdgXA=\r\n=DDUR\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.1_1650967352199_0.9243547418996518"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.0.2": {
+			"name": "@jest/expect-utils",
+			"version": "28.0.2",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.2"
+			},
+			"devDependencies": {
+				"jest-matcher-utils": "^28.0.2"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "279ee6658d763f024d51f340fab6a37c17d94502",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.0.2",
+			"_nodeVersion": "16.15.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-YryfH2zN5c7M8eLtn9oTBRj1sfD+X4cHNXJnTejqCveOS33wADEZUxJ7de5++lRvByNpRpfAnc8zTK7yrUJqgA==",
+				"shasum": "0a055868d225261eac82a12013e2e0735238774d",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.2.tgz",
+				"fileCount": 8,
+				"unpackedSize": 24879,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCwk96WSir2lsNQZ0ISfu5Rro9ExLshlUawowWQMaNsGwIgTjg4OIWWfiN36B+/yzVIY2Cn4wsyvkoJ2Hc3ieFnT7M="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiaPRCACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmqhnw/6Aw8Ec67zTwK/3cm6QyVvkx0tsRTIYjEqDelJLoH1ShDQBtUq\r\nOH7mm0hgjUOFHCUAgZwh7Ud4mkLNsDhoZ0FE/6fCd/7B21JDzFYEQq24xieb\r\nU+WCpzMLPaop9CG2AJ60+eg9uSdx8qc2FHH4YFmB7B8dc0RJbpJne6lljmXY\r\nfWbPJi1SAE298JzXoIUe58f1dlHA3hWqG7z9/t2U+ZvZ3h6xmuiCts2Aukh8\r\nDNsPrvUigGXyi8XxNT60tCKnWu+zd0xx+j8AuKYRJhXz/gmDjDI25miKksUZ\r\ndCTD9eeX9JV4VR4hz7UCHdUdXfCq6AM7Mr9Oc0/bq6IkTZpCXYpaBHlGE0qC\r\nm0m6CpWH6TOukSR3uVo/PPNQIr0H+DRW51v6fDpob0occyvGkxBDupmfB/Pq\r\n8CiqgSFwTnSTdEiEm0UQweHQtDJkpplweUFNCCiI3ISwDc/XNV/DWGwjvMU7\r\nJ/MV2svAKZiOnoI9J68iB2fsF/PKC501/BemeXNYOAiIvLD8yfoo+dDBLm2F\r\nCl0VqUfA7OgBFGeB8Qs9Xnudwl1HrzrkaBCx6ggrQtf8UNC99u+VZa5znVLO\r\nEWvX9D/iUr/TZOijZ+6BuL7N5DlHtB671JeWTBJBMozstSacskjdGLbEi9QS\r\nEvj05tpWrRKjcr5FPP+ZFpI0rgdn+s1iZXk=\r\n=ozwz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.0.2_1651045441878_0.11884923266074487"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"28.1.0": {
+			"name": "@jest/expect-utils",
+			"version": "28.1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/facebook/jest.git",
+				"directory": "packages/expect-utils"
+			},
+			"license": "MIT",
+			"main": "./build/index.js",
+			"types": "./build/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./build/index.d.ts",
+					"default": "./build/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"dependencies": {
+				"jest-get-type": "^28.0.2"
+			},
+			"devDependencies": {
+				"immutable": "^4.0.0",
+				"jest-matcher-utils": "^28.1.0"
+			},
+			"engines": {
+				"node": "^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "f5db241312f46528389e55c38221e6b6968622cf",
+			"description": "This module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).",
+			"bugs": {
+				"url": "https://github.com/facebook/jest/issues"
+			},
+			"homepage": "https://github.com/facebook/jest#readme",
+			"_id": "@jest/expect-utils@28.1.0",
+			"_nodeVersion": "16.15.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-5BrG48dpC0sB80wpeIX5FU6kolDJI4K0n5BM9a5V38MGx0pyRvUBSS0u2aNTdDzmOrCjhOg8pGs6a20ivYkdmw==",
+				"shasum": "a5cde811195515a9809b96748ae8bcc331a3538a",
+				"tarball": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.1.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 25187,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDeT9plI5sS+NMNd8oPE9p6VLknAjoqoxPmnoxP6LmpmAiAHoOZT44WB1PBtG/u3N2fln83jpbtAJNEQuxTcdfT4HA=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJidP0VACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpOfQ/+Ozhgz80tV74vHk/GpnLH1yubyKioJa0fcbHuWm191wScQBeC\r\npnIWCj8UQGYKpx28+xV93SNZBEyya9DaXV3G49j2Nf9Oxqw1vP5NlCGy2kIl\r\nnQTQtNYK6Npevzhq9BHM87eb/6GNtgTYkq4iFMQZlnyDeuWX2dYoShoCOTS5\r\nE6HzVioJb5D6nUM1TSyfLKTvIISu1GZUchGBmJ8pLIADuLVskbcaffZvuvRK\r\n6k9qB385Thm03unL1jHGeSKrFwyz8sjUl8fkk831c9co4C66SJpCwbmJHB5x\r\ndKZt5vvKUJP6HdznhX5qdH1x7RvZSjDB/kKcvpbiEhNa103ME9Htk8wg252S\r\nIP6CoyFcpe7TuvwyrQqtUYEjEtI/IYwTMABLYgdUEWv9LfJWwL5tnBF9sP7s\r\naG0ruYe3pzlh47BFFyLDISHuBjCu7SVIyhyoav7wCS4OBjeHD7WPRSU10+U0\r\n4pl1ejy3pkROfRB6XS+GbeGcgwbWVMJcmm3l28XuNan9Q9h5v8rOgeNAgTM4\r\nOAeHavc+DHTC6SVpG88kAhFmPZ8pX2eS7a78ZyeRvKgth98uodMoJfi6Wmdi\r\nh7DUILJFa1Zdy6jJNILYDjwkzfUz8RPASXGhMKmkOFRC52gVJ0KjXHkP5WE2\r\nQ3jyd0B9yBaN1LQoI0FkNhvL+oT4PW0Bwqo=\r\n=FUzU\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "simenb",
+				"email": "sbekkhus91@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "rubennorte",
+					"email": "rubennorte@gmail.com"
+				},
+				{
+					"name": "fb",
+					"email": "opensource+npm@fb.com"
+				},
+				{
+					"name": "aaronabramov",
+					"email": "aaron@abramov.io"
+				},
+				{
+					"name": "scotthovestadt",
+					"email": "scott.hovestadt@gmail.com"
+				},
+				{
+					"name": "davidzilburg",
+					"email": "davidzilburg@gmail.com"
+				},
+				{
+					"name": "simenb",
+					"email": "sbekkhus91@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expect-utils_28.1.0_1651834133102_0.6931225468553728"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-02-10T18:17:30.488Z",
+		"28.0.0-alpha.0": "2022-02-10T18:17:30.682Z",
+		"modified": "2022-05-06T10:48:53.433Z",
+		"28.0.0-alpha.1": "2022-02-15T21:26:49.073Z",
+		"28.0.0-alpha.2": "2022-02-16T18:11:57.089Z",
+		"28.0.0-alpha.3": "2022-02-17T15:42:21.488Z",
+		"28.0.0-alpha.4": "2022-02-22T12:13:54.601Z",
+		"28.0.0-alpha.5": "2022-02-24T20:57:17.278Z",
+		"28.0.0-alpha.6": "2022-03-01T08:32:22.470Z",
+		"28.0.0-alpha.7": "2022-03-06T10:02:40.079Z",
+		"28.0.0-alpha.8": "2022-04-05T14:59:39.154Z",
+		"28.0.0-alpha.9": "2022-04-19T10:59:14.146Z",
+		"28.0.0": "2022-04-25T12:08:06.732Z",
+		"28.0.1": "2022-04-26T10:02:32.402Z",
+		"28.0.2": "2022-04-27T07:44:02.391Z",
+		"28.1.0": "2022-05-06T10:48:53.292Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "28.0.0-alpha.9",
+		"latest": "28.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"aacb7c882d0be94c9960f03a897b1188\"",
+			"fetched": 1652762929056
+		}
+	},
+	"_distfiles": {
+		"expect-utils-28.0.0-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.0.tgz",
+			"sha": "a7f8d4e48011aa4a59168f8d93284f2f9b568d36",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.1.tgz",
+			"sha": "4ade48e35ecd3d01eec4e5277fb6f37816761dad",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.2.tgz",
+			"sha": "ca891e797d7c05cf2f70da0e77e8ba0c390d5dc4",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.3.tgz",
+			"sha": "0ed65e39efeb5c8f6fb0a0e2255a57bb7fd2f149",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.4.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.4.tgz",
+			"sha": "dc4ce9f1c15edb90a4bf9fe055279353870199ed",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.5.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.5.tgz",
+			"sha": "9e0ae80304a229bd62f6e01320305d8284fb6957",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.6.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.6.tgz",
+			"sha": "d2aab0423083e4db624b911a8d596c9905116d07",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.7.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.7.tgz",
+			"sha": "fe711e3e0d3b5f3b15c5f56362b060dc437defd6",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.8.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.8.tgz",
+			"sha": "36df54300ed1029a410a77e34b167cbb8dd89825",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0-alpha.9.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0-alpha.9.tgz",
+			"sha": "81fefe8e0523cc0cac56658ba019ecac4fd17bfb",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.0.tgz",
+			"sha": "a074371968c80ec71af3053f5083d8e9a7529c39",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.1.tgz",
+			"sha": "c6aa0fb629e3d205384406c2e6cb00b7916c597a",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.0.2.tgz",
+			"sha": "0a055868d225261eac82a12013e2e0735238774d",
+			"registry": "npmjs"
+		},
+		"expect-utils-28.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-28.1.0.tgz",
+			"sha": "a5cde811195515a9809b96748ae8bcc331a3538a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"expect-utils-28.1.0.tgz": {
+			"shasum": "a5cde811195515a9809b96748ae8bcc331a3538a"
+		}
+	},
+	"_rev": "2-4246b4e8b1d06d1e",
+	"_id": "@jest/expect-utils",
+	"readme": "# `@jest/expect-utils`\n\nThis module exports some utils for the `expect` function used in [Jest](https://jestjs.io/).\n\nYou probably don't want to use this package directly. E.g. if you're writing [custom matcher](https://jestjs.io/docs/expect#expectextendmatchers), you should use the injected [`this.equals`](https://jestjs.io/docs/expect#thisequalsa-b)."
+}

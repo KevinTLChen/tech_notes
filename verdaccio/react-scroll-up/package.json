@@ -1,0 +1,2038 @@
+{
+	"name": "react-scroll-up",
+	"versions": {
+		"1.0.0": {
+			"name": "react-scroll-up",
+			"version": "1.0.0",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"tween-functions": "~1.0.2"
+			},
+			"devDependencies": {
+				"react-tools": "~0.13.3"
+			},
+			"license": "MIT",
+			"gitHead": "9c89d25952324c973bce8b91de39a1ed6e64e543",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.0.0",
+			"_shasum": "7791bfee58b684792f8a631c51dd8324549a24bc",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "7791bfee58b684792f8a631c51dd8324549a24bc",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "react-scroll-up",
+			"version": "1.0.1",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"tween-functions": "~1.0.2"
+			},
+			"devDependencies": {
+				"react-tools": "~0.13.3"
+			},
+			"license": "MIT",
+			"gitHead": "0a4601930747250a8191a3e20a3012063f68376b",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.0.1",
+			"_shasum": "541868cc2ad404077cb84773474e7dccedd7b0ca",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "541868cc2ad404077cb84773474e7dccedd7b0ca",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "react-scroll-up",
+			"version": "1.0.2",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"tween-functions": "~1.0.2",
+				"react-tools": "~0.13.3"
+			},
+			"devDependencies": {},
+			"license": "MIT",
+			"gitHead": "1c8f04c18883a14cbac255370b24df0ed7c8d272",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.0.2",
+			"_shasum": "999d45df9e54852d9429f08107cec280e78c82d3",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "999d45df9e54852d9429f08107cec280e78c82d3",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "react-scroll-up",
+			"version": "1.0.3",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"tween-functions": "~1.0.2",
+				"react": "~0.13.3"
+			},
+			"devDependencies": {
+				"react-tools": "~0.13.3"
+			},
+			"license": "MIT",
+			"gitHead": "5d600acd3dba2157ce81533ca3f9888ee2cc4914",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.0.3",
+			"_shasum": "19874500d665ec1018f3b0dfadf830bba2200fee",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "19874500d665ec1018f3b0dfadf830bba2200fee",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "react-scroll-up",
+			"version": "1.0.4",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"tween-functions": "~1.0.2",
+				"react": "~0.13.3"
+			},
+			"devDependencies": {
+				"react-tools": "~0.13.3"
+			},
+			"license": "MIT",
+			"gitHead": "502b24610147eb2549f700894b6006ab5de245cd",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.0.4",
+			"_shasum": "6f7877f02f876ffeb80f489bada0c91b2007315f",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "6f7877f02f876ffeb80f489bada0c91b2007315f",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "react-scroll-up",
+			"version": "1.1.0",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "jsx scrollUp.jsx > index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "~1.0.2"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 0.14"
+			},
+			"devDependencies": {
+				"react-tools": "~0.14.0"
+			},
+			"license": "MIT",
+			"gitHead": "39ea9c2b72bccd8336eccc7aac85813a40f3978c",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.0",
+			"_shasum": "97152eba5986ec3854221a9ebec9ea95f5e65081",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "97152eba5986ec3854221a9ebec9ea95f5e65081",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "react-scroll-up",
+			"version": "1.1.1",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 0.14"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23"
+			},
+			"license": "MIT",
+			"gitHead": "fdd250586669e8ac3a43b1d86bf99b020dfa39c2",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.1",
+			"_shasum": "b20adb3c8f67c80b31376a0fff1f7ae59d7ba8d7",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "b20adb3c8f67c80b31376a0fff1f7ae59d7ba8d7",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "react-scroll-up",
+			"version": "1.1.2",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 0.14"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23"
+			},
+			"license": "MIT",
+			"gitHead": "e4e917046c7d0413c40ad211f226a04265c094d8",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.2",
+			"_shasum": "2c422119c679e7d5d2081690720d656a1d08ec81",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "2c422119c679e7d5d2081690720d656a1d08ec81",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "react-scroll-up",
+			"version": "1.1.3",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 0.14"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23"
+			},
+			"license": "MIT",
+			"gitHead": "ed38328d4dc0d63ff8f6a871a8b1dae2b387fa0b",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.3",
+			"_shasum": "bacf9729e11cf5e8924b62839b16416e192315e9",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "bacf9729e11cf5e8924b62839b16416e192315e9",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.1.3.tgz_1456683498234_0.2626284852158278"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "react-scroll-up",
+			"version": "1.1.4",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15.0"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23"
+			},
+			"license": "MIT",
+			"gitHead": "8858b0924f69bbf76a78c02e1f5fe64b50bfb8ac",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.4",
+			"_shasum": "67dfc01ff5672c4ed4071b8a04850ca869f38ac1",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "67dfc01ff5672c4ed4071b8a04850ca869f38ac1",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.1.4.tgz_1461964866743_0.8935259270947427"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.5": {
+			"name": "react-scroll-up",
+			"version": "1.1.5",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"dependencies": {
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel": "^5.8.23"
+			},
+			"license": "MIT",
+			"gitHead": "7b126d9021d8a265c78f5772f701f0a482012304",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.1.5",
+			"_shasum": "ef00b5920a86cee645a30aaa230e579c8ae6f615",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "ef00b5920a86cee645a30aaa230e579c8ae6f615",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.1.5.tgz_1464213511405_0.05532793328166008"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "react-scroll-up",
+			"version": "1.2.0",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.16.0",
+				"babel-core": "6.17.0",
+				"babel-preset-es2015": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"chai": "3.5.0",
+				"jsdom": "9.6.0",
+				"mocha": "3.1.0",
+				"raf": "3.3.0",
+				"react": "15.3.2",
+				"react-addons-test-utils": "15.3.2",
+				"sinon": "1.17.6"
+			},
+			"license": "MIT",
+			"gitHead": "60938582eea5c163a6fba693106cb1ba0de1986d",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.2.0",
+			"_shasum": "ad032cf1039981f19abd30439e1f81cc46276526",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.7.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "ad032cf1039981f19abd30439e1f81cc46276526",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.2.0.tgz_1484168782543_0.8653615391813219"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "react-scroll-up",
+			"version": "1.2.1",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.16.0",
+				"babel-core": "6.17.0",
+				"babel-preset-es2015": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"chai": "3.5.0",
+				"jsdom": "9.6.0",
+				"mocha": "3.1.0",
+				"raf": "3.3.0",
+				"react": "15.3.2",
+				"react-addons-test-utils": "15.3.2",
+				"sinon": "1.17.6"
+			},
+			"license": "MIT",
+			"gitHead": "261418de4e83c46a5d2e0a58b3b9db4b3f8a63a4",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.2.1",
+			"_shasum": "6fffff6e2b78a741d1cc1d3983384502dbef3c1c",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "6fffff6e2b78a741d1cc1d3983384502dbef3c1c",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.2.1.tgz_1484252637127_0.8821709975600243"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.2": {
+			"name": "react-scroll-up",
+			"version": "1.2.2",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"create-react-class": "^15.5.2",
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.16.0",
+				"babel-core": "6.17.0",
+				"babel-preset-es2015": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"chai": "3.5.0",
+				"jsdom": "9.6.0",
+				"mocha": "3.1.0",
+				"raf": "3.3.0",
+				"react": "15.3.2",
+				"react-addons-test-utils": "15.3.2",
+				"sinon": "1.17.6"
+			},
+			"license": "MIT",
+			"gitHead": "82855e2ca7674e16822b882368560d995b70a68a",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.2.2",
+			"_shasum": "335347c39ee5202844d7249aac53cfcb12294dd5",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "335347c39ee5202844d7249aac53cfcb12294dd5",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.2.2.tgz_1493121557636_0.9933226862922311"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.3": {
+			"name": "react-scroll-up",
+			"version": "1.2.3",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"create-react-class": "^15.5.2",
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.16.0",
+				"babel-core": "6.17.0",
+				"babel-preset-es2015": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"chai": "3.5.0",
+				"jsdom": "9.6.0",
+				"mocha": "3.1.0",
+				"raf": "3.3.0",
+				"react": "15.3.2",
+				"react-addons-test-utils": "15.3.2",
+				"sinon": "1.17.6"
+			},
+			"license": "MIT",
+			"gitHead": "361960c26b35d2b57d08f311194dc67c5b9a7042",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.2.3",
+			"_shasum": "d5f2233c3d51e4aa807b4cea9b1f59a08f9a57f9",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "d5f2233c3d51e4aa807b4cea9b1f59a08f9a57f9",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.2.3.tgz_1493508611177_0.2842449543531984"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "react-scroll-up",
+			"version": "1.3.0",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.16.0",
+				"babel-core": "6.17.0",
+				"babel-preset-es2015": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"chai": "3.5.0",
+				"jsdom": "9.6.0",
+				"mocha": "3.1.0",
+				"raf": "3.3.0",
+				"react": "15.3.2",
+				"react-addons-test-utils": "15.3.2",
+				"sinon": "1.17.6"
+			},
+			"license": "MIT",
+			"gitHead": "3e3a1f4fc2249c1211d3f3ff7a46beedfcd0027e",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.0",
+			"_shasum": "046ae940ff1323424cb0bebd4bd0c9cb6e6c4b41",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "046ae940ff1323424cb0bebd4bd0c9cb6e6c4b41",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-scroll-up-1.3.0.tgz_1493728735322_0.22442364832386374"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.1": {
+			"name": "react-scroll-up",
+			"version": "1.3.1",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 15"
+			},
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "4.0.2",
+				"chai-enzyme": "^0.7.1",
+				"enzyme": "^2.9.1",
+				"jsdom": "11.0.0",
+				"mocha": "3.4.2",
+				"raf": "3.3.2",
+				"react": "15.6.1",
+				"react-dom": "^15.6.1",
+				"react-test-renderer": "^15.6.1",
+				"sinon": "2.3.5"
+			},
+			"license": "MIT",
+			"gitHead": "95709f7289e3ce291a0d4111667c2bffea34f627",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.1",
+			"_shasum": "e642e7c8389b8d33a8b933ee30e67aac0a24fa22",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "e642e7c8389b8d33a8b933ee30e67aac0a24fa22",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up-1.3.1.tgz_1498577452298_0.7653809697367251"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "react-scroll-up",
+			"version": "1.3.2",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - ^16.0.0"
+			},
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "4.0.2",
+				"chai-enzyme": "^0.7.1",
+				"enzyme": "^2.9.1",
+				"jsdom": "11.0.0",
+				"mocha": "3.4.2",
+				"raf": "3.3.2",
+				"react": "15.6.1",
+				"react-dom": "^15.6.1",
+				"react-test-renderer": "^15.6.1",
+				"sinon": "2.3.5"
+			},
+			"license": "MIT",
+			"gitHead": "00ef509bfb0528f54ccbeb455408c684767d50eb",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.2",
+			"_shasum": "03cde6d705385520d9e6c4f965333be23f03518c",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "03cde6d705385520d9e6c4f965333be23f03518c",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up-1.3.2.tgz_1506682823935_0.3506815996952355"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.3": {
+			"name": "react-scroll-up",
+			"version": "1.3.3",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 16"
+			},
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "4.0.2",
+				"chai-enzyme": "^0.7.1",
+				"enzyme": "^2.9.1",
+				"jsdom": "11.0.0",
+				"mocha": "3.4.2",
+				"raf": "3.3.2",
+				"react": "15.6.1",
+				"react-dom": "^15.6.1",
+				"react-test-renderer": "^15.6.1",
+				"sinon": "2.3.5"
+			},
+			"license": "MIT",
+			"gitHead": "2dd2b3295c94285b68ecdcfabc4f22d8e3d3ebfa",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.3",
+			"_shasum": "c02dcf57feb9b33e1491e864ccad220e7f7e50d3",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"dist": {
+				"shasum": "c02dcf57feb9b33e1491e864ccad220e7f7e50d3",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up-1.3.3.tgz_1507209235128_0.2877993453294039"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.4": {
+			"name": "react-scroll-up",
+			"version": "1.3.4",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 16"
+			},
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "4.0.2",
+				"chai-enzyme": "^0.7.1",
+				"enzyme": "^2.9.1",
+				"jsdom": "11.0.0",
+				"mocha": "3.4.2",
+				"raf": "3.3.2",
+				"react": "15.6.1",
+				"react-dom": "^15.6.1",
+				"react-test-renderer": "^15.6.1",
+				"sinon": "2.3.5"
+			},
+			"license": "MIT",
+			"gitHead": "fdf9eb51cb96007b7abaa848014831f1f0f201e5",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.4",
+			"_nodeVersion": "12.18.2",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-jXMoG1Cdkw636ZRLHU56KPppbitkEDSSSOHVXo+QUH+koGasfTXoWiaKxViNGZrJRtImToThlDKhEHD1KhfYCQ==",
+				"shasum": "d12b3fa6ef18b7f16e243db53e9be218e01862ed",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.4.tgz",
+				"fileCount": 7,
+				"unpackedSize": 26350,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfdM+ECRA9TVsSAnZWagAAak0QAKO3pA6rYQoKDh81EQo4\nBjJiqZiLXf3roXOlproMjJ/k81c8W1NTWbrHKpxHyu3Gk8y/K8mFA+dXfYDz\nV5+8drAZ3zRfSyGZZCQEx9ugStVrgNn+LBowG3/zjlILUi/+oWX6IEDy+2BV\nOReiEG9ygToDJXW6WEzQDS6+xXr+6eSCIL3sqoZ0ymEU9dO+oimjpzEMy4Kb\nHE+p7g0SK9osUILoH8hrvixd0HWy3Zx750UUCA2K7pF0zytEEZpwlACGxSrb\nhwJLFifea0Kt/CUrDi9NddcQrppaSox+UBIc5GLgZtUPnbNVtpVUElFskH0b\ncx+njZDYCN/byrsRWBOXPJX94E7QsE1zKAjoc5U3nb1trWe13IFD6CluzHkx\nHjgoZq+eKUrojSu66sOHNo+m4m3iyD9QBZwUBZkv8SU4uj5HMic5evP0d+ug\nElDxrvQYPgu7UHexeOUWuHYDs4o5qA4sIpxtVpEO5C/1kYaqaX4n65OHHqJ6\nw3E0JOTec5a32CGng28ne+z/b01TyByWYxTUIfXl9BAV3z9gI1KYr6p++AYC\nMMSbqYxBDqeussd3Br3MoyQiXthcSHZGGAeQ99ThjuH4lBJmmtJA9W6ZBAwD\nZuwoiVve3qmNRe6F/r/1anfQFdx3rnAwKPaMmoNoeJ5pNIR2sS6666vwXrr1\nIXdq\r\n=KPLA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICFMmWc3ctv4Bdr4isWHy6xEUUiG19+L2syjNgG1uAdFAiEAmwqim3cQdHk5QBZlp6poY5Ce1764sAu9T1nSqs2gwQo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up_1.3.4_1601490819706_0.01766062307739591"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.5": {
+			"name": "react-scroll-up",
+			"version": "1.3.5",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^1.0.0",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 16"
+			},
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "4.0.2",
+				"chai-enzyme": "^0.7.1",
+				"enzyme": "^2.9.1",
+				"jsdom": "11.0.0",
+				"mocha": "3.4.2",
+				"raf": "3.3.2",
+				"react": "15.6.1",
+				"react-dom": "^15.6.1",
+				"react-test-renderer": "^15.6.1",
+				"sinon": "2.3.5"
+			},
+			"license": "MIT",
+			"gitHead": "1c487600e9e71325b69a31728e1ba14eda9166b7",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.5",
+			"_nodeVersion": "12.18.2",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-RpAobxiI8vQQPbK0qm4rTJAD16zZQ7sHS4H39pZHvMreQtPPDsoE8uR3Yj6rxO8Y9QlxGBjwrwz6AE+cuzCE7g==",
+				"shasum": "c117148426f186e5170c4dd41e09e4a32dbe69f6",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.5.tgz",
+				"fileCount": 8,
+				"unpackedSize": 27313,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJffJbfCRA9TVsSAnZWagAARNMQAJ6geX4EqXXbmOa8PeNE\nMHxX+0J0KAmOD7tMisiXPijWdqAIkDvntB+raR+0DJUwVX2CFi9ytxPt2wKU\n9lNTz7NsAe7LhAa9GogBUsAqycdouwrsZ/6sRgJKo+rmG6ilZMrakl4HJ+du\nUwkdeFfK0A9gpTxCytFc+wqxp1w/IagHH2PR7NOOKvapHDiV0Ivhf8mFPm6M\nuB9SA5XbR7EMlu1bADVQEhncc+gjZ1s7X1HjR7z6uSAeSpmDkLQN0bjnuhiR\n0hhmeyx9JmcQl/dM8przAGzAncU2ClcQ/r9tCnDOS/DwQXsGeTp761spgaxv\n69ZUzvK+wDoJ0jPDRt2yoKlc/5G2qpcc8MENOa8CfMxn+1/k1D94STr/CA0V\nXxnuYe/nljTDp/PdIGCxDVYQWoBe3Q9oKTOg4frEK7GtXrpXE0x9GJDvssEA\n5KkX+FkI3vHVCro+skuIBJWhTuIG1CvuRGOaIiJSW3oOBM1XcWAdF/wxi5XH\nVor1965iieaxhFFetH5IOSRlm+Bp1PSm23GPBPJ1MORopaaLfd+IBPMQiP30\n0HwisVF3gyHwvn1VSFM3R+QWYSmKGQk8tqfIgb5ez5+sC/bEsrqv0SiDFUjY\nvrWdZsBC23o5CA3aHFrv4QeF44o/8vtWm35oqksyRXFZd4edjLD2L+D7lMVR\nlu9/\r\n=XQpF\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDHXyUXCBx8eY/8bTGDe3tUJblmLw1vgRUH6t4k2U/J0wIhAMcNUaNUIWd20ZzOLoGRgzMCuA1VVPh5UYAz+5s1T/oD"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up_1.3.5_1602000607140_0.7784654573288938"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.6": {
+			"name": "react-scroll-up",
+			"version": "1.3.6",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --require babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^2.0.2",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 17"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.3",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "^4.2.0",
+				"chai-enzyme": "^1.0.0-beta.1",
+				"enzyme": "^3.11.0",
+				"enzyme-adapter-react-16": "^1.15.5",
+				"jsdom": "^16.4.0",
+				"mocha": "^8.2.1",
+				"raf": "^3.4.1",
+				"react": "^17.0.1",
+				"react-dom": "^17.0.1",
+				"react-test-renderer": "^17.0.1",
+				"sinon": "^9.2.1"
+			},
+			"license": "MIT",
+			"gitHead": "3dbafdfb292b1619a54eb6caa82315e15c7ee841",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.6",
+			"_nodeVersion": "12.18.2",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-+6iXtOCxypJFisvIhiADu1h5NSJKrFa5jdDDlsSqlI8+m0X5f70ryrkp1nB8wlQhOt4F845Uq9lsRD9tk236cQ==",
+				"shasum": "16133c12a84a4ff2c891eb8a47b5d095639cfce6",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.6.tgz",
+				"fileCount": 8,
+				"unpackedSize": 27513,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxB3BCRA9TVsSAnZWagAABmgP/R8ijSUViEo/KTkx3rBG\nbLofqvGwx8f2CoXsbCpurxidmjwjohlqmbXHrhHsnvvwx+r0Kk+fsmDyG+Pn\n7Mi5pGnY63D0MjmuraeD9TWqOEsb85cPFNKDhCp1NmGOmkJrNQ7L6HM5JJMf\nRywxjj14hAxGn8bD828cevb4YPI0/CGxPgwVqsb86kxka7zfdhZ3PtHlU+Sy\nVpowTS2fR5NaOLWXWk+Leupn7KkvJrEcTxyKeTAxtWDdCgKCgTJE/HbguNlt\noXPqgzgFU4Xk/u2h9ONmDyWs2nqudXfv41jqsIcXn02zUPNMO5DRs34Wvpy/\na3aPXIoyep5FHqdjUOaK0IaIMcgGMmzr2VYT2YVgvvAZuBHOGX9Bif0RCrWx\nVh/EA09aeAAq/fJ8+Dep/ZRtIqnhBqeF8MKvv33vTELRyeqCWTyFAKA17KDq\n+F2FeMTFCuwa19KP5CxuUBvaiIub8xClPz4DdeQMZn1PtLLCIDnEnVCCZDMk\n7PKpwtQk3J0feoCkBd+orcdhlsaal381GxYkr0s2YeZ+xGg980QZfGRvSk0/\nAKaOvMjLMw4UqqVbrOkJq8x2kStl72A0xL577nq8VGg5yx7gkWsWIEh9mpdl\n9LRznwIhFaNvGHscDbKqeUsoVcCdm/3s7CM/F8P/tMKOsr0Lx8aL5gOD5yEu\nLdiI\r\n=h2bY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEvhzYuvEdlgk2x6HkbOS7ARARWnYs9fepkpKC2j+KWVAiAwSxfdJhA57WFY6kSJywMNBEgGlh2VnvRJKu+5MWXTsg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up_1.3.6_1606688192932_0.263949015897903"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.7": {
+			"name": "react-scroll-up",
+			"version": "1.3.7",
+			"description": "React component to render element for scroll to top of page",
+			"author": {
+				"name": "Milos Janda",
+				"email": "milos.janda@gmail.com"
+			},
+			"scripts": {
+				"test": "mocha --require babel-core/register test/test.jsx",
+				"build": "babel scrollUp.jsx --out-file index.js",
+				"prepublish": "npm run test && npm run build"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/milosjanda/react-scroll-up.git"
+			},
+			"bug": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"keywords": [
+				"scroll",
+				"scrollUp",
+				"scrollToTop",
+				"animation",
+				"effects",
+				"react",
+				"react-component"
+			],
+			"babel": {
+				"presets": [
+					"es2015",
+					"react"
+				]
+			},
+			"dependencies": {
+				"detect-passive-events": "^2.0.2",
+				"object-assign": "^4.0.1",
+				"prop-types": "^15.5.8",
+				"tween-functions": "^1.1.0"
+			},
+			"peerDependencies": {
+				"react": "0.13 - 17"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.3",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-react": "6.24.1",
+				"chai": "^4.2.0",
+				"chai-enzyme": "^1.0.0-beta.1",
+				"enzyme": "^3.11.0",
+				"enzyme-adapter-react-16": "^1.15.5",
+				"jsdom": "^16.4.0",
+				"mocha": "^8.2.1",
+				"raf": "^3.4.1",
+				"react": "^17.0.1",
+				"react-dom": "^17.0.1",
+				"react-test-renderer": "^17.0.1",
+				"sinon": "^9.2.1"
+			},
+			"license": "MIT",
+			"gitHead": "190eace4fdd424f1c8959fd4d9180adccfbfe0db",
+			"bugs": {
+				"url": "https://github.com/milosjanda/react-scroll-up/issues"
+			},
+			"homepage": "https://github.com/milosjanda/react-scroll-up#readme",
+			"_id": "react-scroll-up@1.3.7",
+			"_nodeVersion": "12.18.2",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-STijjW7R/cc2+6GswZzcBb73sQgtQP5IZnSIeJlKGb2I1WDyc1bl5dbHuPeklDY0OAf3opV2DUHXDYhItZe/cw==",
+				"shasum": "8cbc1ace1d7723a62bf432aef3dcad6a2664fd56",
+				"tarball": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.7.tgz",
+				"fileCount": 8,
+				"unpackedSize": 27444,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxCSQCRA9TVsSAnZWagAAtLAQAJqQNBuxmZUrXJuEjMQr\nMxdqMtZqsD9G/Htsy64YijWMDwQ6B5w3Tb1AX5tQrPZptBPjsgMoIots7mgS\n6v0e6NR+A+FEIBIycgo+Wj4/zIM9HhLStYlvHho3mmZ4X1GKe26kicwcy9EM\nKIv6yzwgCxyN6hdiB6qUmr+2GE1Cfia2sYqUZSoGfNlOGSrWJLrotOQvOaMb\n5ACvcjpc8z5s7n7iPg1sFZCHRtcli7lQ7AWtB/6Zs9EyA98PSUa5aIlTHapP\naURIGRCNhbk16kXAREca7e8i4fpGNDO/JDPy6YAU8PCK08n0CWBJWCi72Eyo\nYSSjtsENVM0VHo115nSIFaMaAGKqMt/cKE/wp6pMte6h8aDsLR7Np6ERM3zT\nwOcLqymheR03k04ID22TwQp6vnai9rtQ1CU8jzO6p4+eTNLVUxO/AvHNWa2a\nbK/GoA27BTNbyMkaIh5pq93ZbDvFM8M9X0r/DKZICXzWgaFHTz95lgn+V4lW\n73eBkQfrDgLZvwJkH4vQdJ4kW0zqi9s9dDa1fSTfTf0NDo7OLQQrWa32QJ0X\nX19NXgedAEMx22zkpVJryBrxlCiH88GTJ05YR5ZUPC1A7iK/WA20zflJpAA5\nws10KKFrQpnX1pQEIwuvLk6RhnPNPtjb2UkRLgTcoXDOEIHqSV++kof5fGSi\nlVYU\r\n=+XQ9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDJ2YKGjuaQDWPRP2WZicYfDyvknN6E5uQ2qWam/wjGkAiEAkbRdaJp8tvG+H2arDnTKzwSKLsQ/KxNVGNnaJ+QQaIo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "milosjanda",
+				"email": "milos.janda@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "milosjanda",
+					"email": "milos.janda@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-scroll-up_1.3.7_1606689935620_0.9239532398225314"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-15T03:42:46.664Z",
+		"created": "2015-10-09T11:24:26.194Z",
+		"1.0.0": "2015-10-09T11:24:26.194Z",
+		"1.0.1": "2015-10-09T15:34:19.462Z",
+		"1.0.2": "2015-10-12T17:08:41.144Z",
+		"1.0.3": "2015-10-12T17:17:49.295Z",
+		"1.0.4": "2015-10-13T09:16:04.095Z",
+		"1.1.0": "2015-10-13T13:02:54.869Z",
+		"1.1.1": "2015-10-19T09:11:27.457Z",
+		"1.1.2": "2016-01-27T23:11:32.757Z",
+		"1.1.3": "2016-02-28T18:18:21.198Z",
+		"1.1.4": "2016-04-29T21:21:09.125Z",
+		"1.1.5": "2016-05-25T21:58:33.897Z",
+		"1.2.0": "2017-01-11T21:06:24.266Z",
+		"1.2.1": "2017-01-12T20:23:59.038Z",
+		"1.2.2": "2017-04-25T11:59:18.286Z",
+		"1.2.3": "2017-04-29T23:30:11.870Z",
+		"1.3.0": "2017-05-02T12:38:57.067Z",
+		"1.3.1": "2017-06-27T15:30:53.209Z",
+		"1.3.2": "2017-09-29T11:00:24.788Z",
+		"1.3.3": "2017-10-05T13:13:56.009Z",
+		"1.3.4": "2020-09-30T18:33:39.917Z",
+		"1.3.5": "2020-10-06T16:10:07.443Z",
+		"1.3.6": "2020-11-29T22:16:33.091Z",
+		"1.3.7": "2020-11-29T22:45:35.766Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.3.7"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"1d43e82bbe887dc4cad5775713e6d2f8\"",
+			"fetched": 1652763767323
+		}
+	},
+	"_distfiles": {
+		"react-scroll-up-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.0.tgz",
+			"sha": "7791bfee58b684792f8a631c51dd8324549a24bc",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.1.tgz",
+			"sha": "541868cc2ad404077cb84773474e7dccedd7b0ca",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.2.tgz",
+			"sha": "999d45df9e54852d9429f08107cec280e78c82d3",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.3.tgz",
+			"sha": "19874500d665ec1018f3b0dfadf830bba2200fee",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.0.4.tgz",
+			"sha": "6f7877f02f876ffeb80f489bada0c91b2007315f",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.0.tgz",
+			"sha": "97152eba5986ec3854221a9ebec9ea95f5e65081",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.1.tgz",
+			"sha": "b20adb3c8f67c80b31376a0fff1f7ae59d7ba8d7",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.2.tgz",
+			"sha": "2c422119c679e7d5d2081690720d656a1d08ec81",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.3.tgz",
+			"sha": "bacf9729e11cf5e8924b62839b16416e192315e9",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.4.tgz",
+			"sha": "67dfc01ff5672c4ed4071b8a04850ca869f38ac1",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.1.5.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.1.5.tgz",
+			"sha": "ef00b5920a86cee645a30aaa230e579c8ae6f615",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.0.tgz",
+			"sha": "ad032cf1039981f19abd30439e1f81cc46276526",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.1.tgz",
+			"sha": "6fffff6e2b78a741d1cc1d3983384502dbef3c1c",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.2.tgz",
+			"sha": "335347c39ee5202844d7249aac53cfcb12294dd5",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.2.3.tgz",
+			"sha": "d5f2233c3d51e4aa807b4cea9b1f59a08f9a57f9",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.0.tgz",
+			"sha": "046ae940ff1323424cb0bebd4bd0c9cb6e6c4b41",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.1.tgz",
+			"sha": "e642e7c8389b8d33a8b933ee30e67aac0a24fa22",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.2.tgz",
+			"sha": "03cde6d705385520d9e6c4f965333be23f03518c",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.3.tgz",
+			"sha": "c02dcf57feb9b33e1491e864ccad220e7f7e50d3",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.4.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.4.tgz",
+			"sha": "d12b3fa6ef18b7f16e243db53e9be218e01862ed",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.5.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.5.tgz",
+			"sha": "c117148426f186e5170c4dd41e09e4a32dbe69f6",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.6.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.6.tgz",
+			"sha": "16133c12a84a4ff2c891eb8a47b5d095639cfce6",
+			"registry": "npmjs"
+		},
+		"react-scroll-up-1.3.7.tgz": {
+			"url": "https://registry.npmjs.org/react-scroll-up/-/react-scroll-up-1.3.7.tgz",
+			"sha": "8cbc1ace1d7723a62bf432aef3dcad6a2664fd56",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-scroll-up-1.3.7.tgz": {
+			"shasum": "8cbc1ace1d7723a62bf432aef3dcad6a2664fd56"
+		}
+	},
+	"_rev": "2-130d04e92c9f1de0",
+	"_id": "react-scroll-up",
+	"readme": "# react-scroll-up\n[![npm version](https://badge.fury.io/js/react-scroll-up.svg)](https://badge.fury.io/js/react-scroll-up)\n[![License](https://img.shields.io/npm/l/react-scroll-up.svg)](https://github.com/milosjanda/react-scroll-up/blob/master/LICENSE)\n[![Dependency Status](https://img.shields.io/david/milosjanda/react-scroll-up.svg)]()\n[![peerDependency Status](https://img.shields.io/david/peer/milosjanda/react-scroll-up.svg)]()\n[![Build status](https://travis-ci.org/milosjanda/react-scroll-up.svg?branch=master)](https://travis-ci.org/milosjanda/react-scroll-up)\n[![Downloads](https://img.shields.io/npm/dm/react-scroll-up.svg)]()\n\nReact component to add custom button (it can be something what you want) for scroll to top of page.\n\nLibrary uses [requestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame),\nif you want better browser compatibility (IE9 and older), you can use something like  [https://gist.github.com/paulirish/1579671].\n\n\n## Install\n\n```npm\nnpm install react-scroll-up\n```\n\n## How to use it\n\n[Live demo](http://milosjanda.github.io/react-scroll-up/)\n\nYou have to define children element, for example `<span>UP</span>`\n\n```jsx\n<ScrollToTop showUnder={160}>\n  <span>UP</span>\n</ScrollToTop>\n```\n\n## Parameters\n\n### showUnder:number in px (required) \n\nWhat position (and below) the button will be displayed.\n\n### topPosition:number in px (optional)\n\ndefault: 0\n\nThe position to which the scrollbar be moved after clicked.\n\n### easing:string (optional)\n\ndefault: easeOutCubic\n\nType of scrolling easing. You can specify some of this type of easing: https://github.com/chenglou/tween-functions\n\nIn graphical representation: http://sole.github.io/tween.js/examples/03_graphs.html\n\n### duration:number in miliseconds (optional)\n\ndefault: 250\n\nTime to reach the `topPosition`\n\n### onShow:function (optional)\n\nCallback function to be called when the button is being displayed.\n\n### onHide:function (optional)\n\nCallback function to be called when the button is being hidden.\n\n### style:object (optional)\n\ndefault:  \n\n```javascript\n{\n  position: 'fixed',\n  bottom: 50,\n  right: 30,\n  cursor: 'pointer',\n  transitionDuration: '0.2s',\n  transitionTimingFunction: 'linear',\n  transitionDelay: '0s'\n}\n```\n\nYou can specify you own style and position of the button.\n\nHide/show button is based on opacity, so this styles `opacity` and `transitionProperty` will be all time overwrite.\n\nIf you can positioned button to left site, you have to reset css property `right: 'auto'`, and similar."
+}

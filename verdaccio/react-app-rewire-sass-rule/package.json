@@ -1,0 +1,515 @@
+{
+	"name": "react-app-rewire-sass-rule",
+	"versions": {
+		"1.0.2": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "1.0.2",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"peerDependencies": {
+				"react-app-rewired": "^1.5.2"
+			},
+			"gitHead": "e46ff27487508e11c0c378d045421d993466de17",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@1.0.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-ZBm9uVFndJJncLzGPbgvYF488Oo+V/w3574Kca4JITi/zgS3zoPVuF0r7EB1ci463Xzn1+YnCP/LV4dBp6lNGw==",
+				"shasum": "01d545e36d01dfbe7b76c08642d52701494bac40",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-1.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47288,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVHoSCRA9TVsSAnZWagAAsecQAJCyipaM5Mx/CBC7Ey8+\nfyINoiN5VyZ77lDV5iK8MWG54iDD4mRk3vOJdvBOwJduS3l/nytDTykft0FP\nOSszF5VYUqiAMDYlDfy+xtp5WQDSJ7EUk8W74nNrE1M9v59zNxXQ4wra4/1Z\nNT4CwktppmyO5PgO3Q5ARpDNuozqIABrBMZhYcuYOfSqRsRRbYGeP90wVygZ\n+52Br9KY4V7INjRUFyVtSwLxEGEJuvYwm8d02S64TCk5tkivs+b0lUPnM46F\nbZgUOf5acjVb3Rip7EyxjcUfPrwcx31eifopHQFVAQkl6uKQcqrtl0bthd36\naVZf8CmtuEilK/nz08smWEFKUFesUPcEIQaKJv7huwlUGbQWM4BEcpy9PJ93\n3utOwwwnqPTwSTMZ88f/I3Ll3r8yxnabafjh+4SJz6G25i/6pXivENMcTr9u\n1YpMxeYoq29WMSTqaYxnWD1QKc0nLUtrQRQ5amNhR9XebqFNxHvwWd2Ne9yv\n9k8awEqeMSFhY+G0P7ZpC3P5vwt3c6f24mm/UyDhBQCRacoNA4vGoagcHMvI\n/KAvwuLrPQ2C8RbM/T4bQ7Cibi61dmzXBdcMT4wA+Z1kLObwBWByn+Fvact5\nI7QPvXlqewWVXYJWZ4PKEfckOLn6f1jXIvLhaptiCu+KLSHg27m34C87wMYL\nvoPi\r\n=iJrx\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA6b44Ww8Vki007fsHc+8Y9X7WlKjrFpJUDMv0DUcJOeAiB9jCtUckVj1mPjeFpR6EVESIqK4WiH8p2BcT9ZXsTBVg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_1.0.2_1532262930170_0.055824493777006934"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.0.0",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "8a687aec79cc84dac2df348ea5b03889835b7169",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zljzal6Q8LgffpchhVnqNV+pgMg0tF9rMZLUKlNLUL7hUgv9TBIRXveqrDmRIuvy7LKOaGzCFXm87P68UQFFTg==",
+				"shasum": "9c2e920624ac2845848c42ee347ebf86801df63f",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47744,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9+t6CRA9TVsSAnZWagAA1j8QAKUiglTQkLaX43dxQO90\nhkLxnBUFn7310fAO5aV/b9OlUbSP5U4uJzhXnLTSf/UQv93nZL9GFH/7LiSp\nOXhQx2Y/oXgl51jUOM8Fif7aEeDCKhvwqUCmIA49RutbLspI5PoHQWBIunTx\nwio5AeXMls6lPWvVCUXRu8G8ySDqQLZg/qt1KKhWZmRrRRwSrmShh5isjppz\npJp8wB/QRezLbNuXS0WD4tCzuXCl+iEisiVtppz05MouULWTSxrMyHFN0WCK\nA+xKyaLBi/3o1pTb1judaImyeG27s/XJnvP0X+Q3Z7lWk4RdQa4JsqZBkLqd\nXxVFhswHTZFL1xEys9w4gOEzA36PrrcU4qCllgeqjpgQsSG/tYQLfFodxwq5\nKhIvWJ3WDIUDMk2uWKygPKlLxWs55+cXi3gAjpwb/2yK7/doOqqjbjLZxLOD\nUE48xZQaPfOR6AfmMZhXJtOBoASyD1jSOxehJbAdTkjMA4GtZXiWjXjYhYHn\n4NCFmC0Lp+PyiUf3TTIKfKyk94mmpV5vC0S/YpN+0XLbaVCMfLH3hWDrpIm3\nz32NKlsPcph6ZWUBbOPl0i+L96L4xfoA6W/Fl130t3M+hspeDiyxWvlAL0a2\nYDevLUjLxjOszva8828ibZLtX5gfux3pgBWF+Kvcqi12F56BijC5R8h1y/gI\nb9yV\r\n=N8ph\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG86QnLHMTpUq8cRZGDSbFhnVBYJIMxhHXSF0T8+RV3vAiEA1budB8gmHz6KsAwhbPjlzUrvuNMFVapPE10skB5Lfdg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.0.0_1542974330027_0.19063944363926733"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.0.1",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "250a90e0dd04b5215f5815288c94847ed5c8fedb",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.0.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-QshnDaEhFV756t+XF64QsrBqwgS9vnRaScFTWo2ZytAlhLQyTts7+GlM3EB5xW9OdjC7/I9fOOuB1BdA8nmZ0Q==",
+				"shasum": "99e32ad25839ade8dba0b38e5575778925dbd431",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47776,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9/HyCRA9TVsSAnZWagAABSUP/1k1b6PhsCFMdXqSeqO3\nmZWf6tRf2JDWKJlMWKwo7QqXoo3DMjEnUEfzpVkMp4WJx9/NALdH/HgZ79c6\nOXGFMFEfvDX5MUa5aXTuUWmL5WAyKrsODHK9J7YNlVYBGtR/bkYR1AW6O2xo\nB/anH6o9hfBJJngfcQXTIg3/tu9Ch5e93dOL5xL9tWheEYTaqLEJnfi8ET3j\nMlMsORoEeesEJKEp5ecBgHQZxbg+sNh8EusPJPt+NK8sYB9E1lthSoW36IqZ\n2R+MYay+Mn+q0F2NySoxQL/bqiN9c130cPhswFNTncuBRx+OewAWsQkGCk2q\nTr+chvMp1yk/g2PKVol4IXQSZCoig6J2Sv0t/+MeOIHBe5kYSZCddvMWk9gg\npiIWG5YQA1iR2VN0Qe1FkuWlgMbGB8Vip5i7oup5IyvHn0m9Unf0b6+v2zou\nJvAfba1TtcH06RJ3XPK7rsnYTKG8/ZX23RotPDM+ZA4MtyhXgGko0R3U1jmi\nyRgORuetSryClqL++w8JcZbb0ARE3P2ly3DjmTEZ6AAkQRH9ZJwZDdMSBPSf\nocpdkbjIcX3ifbuWxKSjEBN0Duxap/M/zfu1dU5HuCZpPcmsaWcbUwk7+h4m\n6SrMp0rRnTkCPpqBU9rtpU+lucR0CrTyhJHQsjtpTtoiB69gHwcddfNJSkcz\nWcFq\r\n=JHiG\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAMJJQp8aiDd3wyZ3aDVl997BpoYoVprsxCMwmk3gX08AiBOlNIHKm/7iQ4dqWktkQeS3x0W+eWZsLevz+FfyVbHrg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.0.1_1542975986173_0.015247449632789234"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.1.0",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "05b6c79e0f9558e485a6fe3666b48b3a12968a10",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.1.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-9prR0jjhdgEfmzxh5q1xWEpQAy1rUNQhVQvNJ8BLFknnwj00M9buoN++xQDcF/zuQ3zDaqTFjwSi+EMWmUdlBw==",
+				"shasum": "9e39bc4a4f4e60d97f1742276bb9b8fc91f32bd5",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47850,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb++UECRA9TVsSAnZWagAAQ+oP/jcPCKZ3P2XiMRsRiCBx\n1HY+59LEGcVYPJerZ8NcXFPE4ccFvrxlWTKSSiwcVdfPWFebMj1eV2e+vGnP\n/3NKJqu9EpLkR4KMZx5+8nfL60GUQEWAVGa0j5/j1ovATxUjl+SG+QY9wT9n\nyxN40OjFQMPBUJ4ZlsQBD/e1501fio8p+07Ms8OcpHGNAdnFdxUo/xVlv2jM\n3CxIp3ihbBTJ1mBGBAWuVuVhuYX8jPebWYe4p6bceI5yhFxdj16jVRm5cm9R\naeNX/pcEtwfYP3TNJM3yhqymSR5YqEK+7O+kLgKWh5G07qqflNfqBcvJRlkh\ni2Wx5+Lvjv69pC67CMgQI+tyPQVK0wwlKXcUUfvgVHkfiU0WyPYkE35rObJy\nsrfAEag6HlislFiGd93D6KamN6l3M8HJSxZJ8maQojLmzSLZ3UNXm5YdWF3y\n+16dp83xARGG7YK9ICBXLaRKNsABxo4P9GU7JMZ+chPGWW9u3PDl3c/EVtBk\nJ0GEyV6LO5V1tHdwrl5RaQqEOnfQThIr6rNlZmiWGzOay8Pk6BY+tJgO4hMl\nT6qRPkuFTI0SH/gXXnmMxhNeNLy1b6W5BrVu1n4C7i3tzJnVs+/HmEO/fnKs\nswtuMGomzJ1HwhoWUVv8ttYW5g5PjZlwGf8eeAfh/LalOPNfckbtmCFQ1oTX\nFC+L\r\n=vhxE\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICzP5AUejgCnPclJ6nwKJpYWfu/JkKjSosYuqJOlRHS6AiBiAJdiY7TNiq+s21k/lxBWpvmgr8OteMWT1KnIWh+P0Q=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.1.0_1543234819738_0.09504230095630772"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.1.1",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "3c9e0af866feacea99cd0256392dd0c2ae14f168",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.1.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2Lv9l7OMOn1ixEUlaloAKpadmIT+ztMArvgspJyGhLBS2BqEgnQNaSq6eineSDVxTld7Q1yIkMoOF+ug+9S/MQ==",
+				"shasum": "f3a5d89a027f2bda35db675c29ecc32caad9051b",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.1.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47850,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb++rOCRA9TVsSAnZWagAAIIcQAIVYr+PLhdJhMCxjTGOW\n7srlVfYCz8trD+sSF/d0cp4AcDKqW7AwlcTR/Q6V4bE/2l+wcL7+kqLyw7PI\nccox8x74VOriwEbXiGI+Ib35X57tNPDbmtgwzoCvPknFc1nVMOKKF79G8gkX\nmVZzVOOWy0HRGr37WYr7OkrZqwU8YRbVCL6ipqpn81hzm3GQAcWdI31PxIbN\ncPpYIR6dS0VyGRqQrig+lHH8N/FXrp1Q79XR9cJU1QZU63RXvnOMR4FnqCW5\n+58sP8Ee/8UmwDUbs+tTfQ3PkyFGnaLRpki9Cs/1cxw/CFkT+ZN67pJjPvxV\nNnA8vr2VzTOS4ILsmiK5nwK+HHDlg/416MSOqp/tsTWCj2mSvif61D6lY+NH\npg57m5GrXiKnCW7rv/XCjqoGZ69lgD99mCO4rHWQr7axORxqXpA0SGb+rS/U\nUDGeTD4Xamuut5g48BBylzdmX3ri6BxXXX40atV/mSMC1SCjVub1urdKGrZG\nSOYLKHRk4z0y4deWVz91ROavXVamGhXEIrMplwKOH18GEreB+FxCUjY2Yhpe\nGFMriUDmhP1JnhEdYukuS2gMQAsy2oSlEVwA58uj5rHWEGg0X39WStbItgja\nHQ/EYOgnnRtH14k9h8XREDmrV1Th5/W4olo4PFTREiB4FHFYgdEpWvlOvxmn\n2saX\r\n=uuPP\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCpK3MLqKSE30sWrCzTQ3H9iGKCeMPxLtW/JaBzz95uogIhAO2QihHkK8g2xkDOlHMf6JplCgbiMa8adzCC21oxPGzs"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.1.1_1543236301163_0.7752954608620031"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.2.0",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "00fc12fc61c2bd36873abff0c26e810f58222018",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.2.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-POa7Pv9mvwq2e4CCdjD0PbLTWb91FkKU/tDUqnkbYjP9w8RaUn249RzW0DUgUNn7KLibFQEtKySUdWBb1NG2/A==",
+				"shasum": "1359a30f8bd5e88d4adac3a3dfcce4848c363cf8",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47611,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfcvmDCRA9TVsSAnZWagAA7XQP/iwR5xL79eC/+ItbbASN\nCScZK7NaNj7Jf0H7ArZIFwn7RUAWGvbK0FJbkuoMqp7a5KP7bmUC2V+QL+o0\n9j9q9kH17XdNNkb8lf81AOBs8TTILOQkLbXNP3MnOIaldsJaH3Bte0XQtZqf\n+92Ib+9KvrnSt0qI2Zu8wIJoIJ6SS6ysdMIA33JBMxIW+whatQaMfbtyI6wE\n/YbOiVy3ZqA07+pc+UOZMvWXsBr3v7pKj60AVXu1Ch5+dRJ3femRzvfAIb4A\nUOBmnrTPsbD27BEwpi1zqMLHA45nmh/VceVbHFwHkPtvV+ScImXG+3n8Dc7Y\ncA3itIymgtkJCxziGXLUYECI9gX6W0rBj/R7tKann0s5GSN50QdY9eWgalph\nuuV5Zx59kMbt0zngfME0Sg8DeloBpABj2YjCnfWOVJ/hBvPR7TIiQfuwX8Nu\nEAtSMJCJauKMBrbYcy2YQYdv/vP8z+UqVRKfr7pw7UQkZgGeOQk2fs3QhoHs\ntvznTR2WKZXBEPO6jBO51GFHOM4h1CcqDWha66wraYT1Fv+vjQwpK4UpO3wf\nMdphxh65+q3BfNpQGICqIllU+CXxX1m6dHA5UJ0Rpb2DCNUJOBxB4kAXfoQ4\nyEuBkTZU3TxPuFSDquOiX2h5kgIzOHOtBv4FTQDeH3cwWfOxnmP/4jyvonWl\nCReM\r\n=FiPH\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDOF/wrGUsGe8qqKPClRN28PiOQCrJrdId5019GpDKhTAIgYtpe2gmiNS6MiNjzwUZFyeVqO+0oxdlyKdZAjus/qCQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.2.0_1601370498788_0.5736747496271086"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.2.1": {
+			"name": "react-app-rewire-sass-rule",
+			"description": "Add SASS to create-react-app project with react-app-rewired",
+			"version": "2.2.1",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Harun Urhan",
+				"email": "harunurhan17@gmail.com",
+				"url": "http://github.com/harunurhan"
+			},
+			"bugs": {
+				"url": "https://github.com/harunurhan/react-app-rewire-sass-rule/issues"
+			},
+			"scripts": {
+				"test": "echo NO_TESTS_YET",
+				"postversion": "git push origin && git push origin --tags"
+			},
+			"repository": {
+				"url": "git+https://github.com/harunurhan/react-app-rewire-sass-rule.git",
+				"type": "git"
+			},
+			"dependencies": {
+				"node-sass": "^4.9.0",
+				"sass-loader": "^7.0.3"
+			},
+			"gitHead": "9359dceb209aab482e2fac97877af75bb413e6d0",
+			"homepage": "https://github.com/harunurhan/react-app-rewire-sass-rule#readme",
+			"_id": "react-app-rewire-sass-rule@2.2.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "harunurhan",
+				"email": "harunurhan17@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-vvm8MO2UD31WAaon3EpqI0CWTBCJNzHKTYRWLf4jjXpZyiPql2XUI+Gfd8mFnIcA4Str98Xrtd5VxCzF4X0j0Q==",
+				"shasum": "a64dbedb7409102827d5b863b695d49d6657f1e2",
+				"tarball": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.2.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 47589,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfcvrUCRA9TVsSAnZWagAAIskQAJ4y5vwgDMCkHAW3gH7M\nPcLatax87MIpfzkaZFj0bPXbilz6XjOo1iJrQxhD537ny7zPrCVRIlM6qs8I\nQkdDlXRafX1eDpxzSjPio4aUq9MzYIB45dwAZPdnK8W/rzWvOB+snBbCYQ6k\nPblZZ/0ZlydcBs52kxWxvxANNsyF1Hwwg7oGm77els14677hJS56FrXaIgMC\nvjkhjuBxE8OiIC6WrdyrU/HCU5O/6FQm43fLZTtGWCu1YgjdnTsGwVteakSh\nM36L3sPHCiI7O89hiUNsA+GTTGQtRfEh4qah6NOBs8tkfu4RhaY1/8YLDE+z\nuPo3+W6hT+wgBecZkAa8h/0ynOn2BQ79Sj3IhKoV8hY05OEwyOmZKF2kQlk+\nzBrS3J+eQjvBU9XVqXzov5NIKGw0cnJv21xL53TWzOhWn6ieQC0fEx0BCgtN\nKo9ic5c4zqtrYF9g9hSE1UmEl/lXl4a0HO3GmjC2v4CUNRzdAVjaWUYR2lGQ\ndZBl7IXKTn5hb2Ng+uXJHDrrhbmr9gOx4nekpmOnDY9YzM9OBWpo0EwYOIyb\n72TllcJI8BDJ/NEBz+k0MDKN5q7VgQeozgUl6oz23QCichxR2dBDfgBhaOhP\n2XHwbAFgRXwtBtA4l8VrAZO0yR7DFpC06J7qTWSMDEQVADBnvSin4FAepgkM\nCiab\r\n=hAPQ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEOJv8m/D3YeqmXKRRHemv8PARNTbyVEVo4XhR8QrthmAiBJqTC8LsAIwu2wwnWFOgeeri6uXMW1bK4qkjvZfk3ziw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "harunurhan",
+					"email": "harunurhan17@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-app-rewire-sass-rule_2.2.1_1601370836064_0.07709304227664049"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-07-22T12:35:30.170Z",
+		"1.0.2": "2018-07-22T12:35:30.289Z",
+		"modified": "2022-05-14T06:16:55.592Z",
+		"2.0.0": "2018-11-23T11:58:50.126Z",
+		"2.0.1": "2018-11-23T12:26:26.244Z",
+		"2.1.0": "2018-11-26T12:20:19.888Z",
+		"2.1.1": "2018-11-26T12:45:01.627Z",
+		"2.2.0": "2020-09-29T09:08:18.976Z",
+		"2.2.1": "2020-09-29T09:13:56.280Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.2.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"20fb88a49b05896f237672f75ee9d3bf\"",
+			"fetched": 1652763093177
+		}
+	},
+	"_distfiles": {
+		"react-app-rewire-sass-rule-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-1.0.2.tgz",
+			"sha": "01d545e36d01dfbe7b76c08642d52701494bac40",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.0.0.tgz",
+			"sha": "9c2e920624ac2845848c42ee347ebf86801df63f",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.0.1.tgz",
+			"sha": "99e32ad25839ade8dba0b38e5575778925dbd431",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.1.0.tgz",
+			"sha": "9e39bc4a4f4e60d97f1742276bb9b8fc91f32bd5",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.1.1.tgz",
+			"sha": "f3a5d89a027f2bda35db675c29ecc32caad9051b",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.2.0.tgz",
+			"sha": "1359a30f8bd5e88d4adac3a3dfcce4848c363cf8",
+			"registry": "npmjs"
+		},
+		"react-app-rewire-sass-rule-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/react-app-rewire-sass-rule/-/react-app-rewire-sass-rule-2.2.1.tgz",
+			"sha": "a64dbedb7409102827d5b863b695d49d6657f1e2",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"react-app-rewire-sass-rule-2.2.1.tgz": {
+			"shasum": "a64dbedb7409102827d5b863b695d49d6657f1e2"
+		}
+	},
+	"_rev": "2-0bdd431c67948015",
+	"_id": "react-app-rewire-sass-rule",
+	"readme": "# Rewire create-react-app to use SASS!\n\nAdd SASS to your creat-react-app project without ejecting \n\n### Use v1.x or v2.x\n\nfor [react-app-rewired](https://github.com/timarney/react-app-rewired)\n\n### Use v2.x\n\nfor [craco](https://github.com/sharegate/craco)\n\nInspired by [react-app-rewire-scss](https://github.com/aze3ma/react-app-rewire-scss). It has `withRuleOptions`which allows you to configure the rule options except `test`\n\n## Install\n\n```bash\n$ yarn add react-app-rewired react-app-rewire-sass-rule -D\n$ npm install react-app-rewired react-app-rewire-sass-rule --save-dev\n```\n\n## Usaga\n```javascript\n/* config-overrides.js */\nconst SassRuleRewirer = require('react-app-rewire-sass-rule');\n\n// Basic\nmodule.exports = function override(config, env) {\n  config = new SassRuleRewirer()\n    .rewire(config, env);\n  return config;\n}\n\n// Advanced\nmodule.exports = function override(config, env) {\n  config = new SassRuleRewirer()\n    .withRuleOptions({...})\n    .withLoaderOptions({...})\n    .rewire(config, env);\n  return config;\n}\n```"
+}

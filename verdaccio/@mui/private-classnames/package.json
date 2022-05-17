@@ -1,0 +1,122 @@
+{
+	"name": "@mui/private-classnames",
+	"versions": {
+		"5.7.0": {
+			"name": "@mui/private-classnames",
+			"version": "5.7.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Private - React classnames utils used internally in the other MUI component libraries packages.",
+			"main": "./node/index.js",
+			"keywords": [
+				"classnames",
+				"mui"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-private-classnames"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://mui.com/",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/private-classnames@5.7.0",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-OSB4ybzpYiS11rQ3VtbcJz/CS19lC0r0Hk14iRZwPtVgapnL1hKsGtmgRviZLxpLk/cZUKaxaJDuuzI/extCoA==",
+				"shasum": "7ec4c4632b58eb89bfecf67f2bf2a29a54022f6e",
+				"tarball": "https://registry.npmjs.org/@mui/private-classnames/-/private-classnames-5.7.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 437559,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFlTmD1+vqyJcw9KgKOd/vF8jJj9b09vkCTrzJuq7ItaAiEAud9Tek59X+Lv1o33lYiFJY6memwXtMW4MxhqLH5RpfE="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJieirIACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrPZQ//V/Fl4j0AchCHdX+3J6nUpDHd43ZxIiJFAhbJzqpQfnHqBld3\r\nOgtOp/JMbeNaaTgBcEJoUdvojEbu2HyfFX2OWNj9QZ8bMmMRRtlppOdDpEOC\r\nMZTBMHXzktDI5DxkIMJaTV/5MJkEsZVN64fsJVafrsfuV7854wGYMn3YSkKd\r\nv9S0ewhI8Wsi4Dv9j6GvrMNLnVSjFCXw8sLuvO5LVv2kgm3sShJkfW+6iLq4\r\nSP7a8Oe2WVklCHPWivOZPeDFjPTuAaFev+2MnJoEVv6lNs3xBP5w+4LCZWqb\r\nFSGXTIKbWdgycGbHC1cfxFifwH8Iyn6XMLLvBv8XmhMqr5cwFybhqXXB+OdK\r\npQIJnq199BtM3aBMyOV8/OBfl13Om6WE5SXTlwJF/ndf2EMJkAwWQgzDIwYI\r\nu1BF4up8n5LXHITE7zDZ2WtDo4deF0hcfQrioTtQd9DQXz7sTW1J1fIOZKgz\r\nNV+9EWGmicmleeE6+jmMkW6B5+jSpZiDu63a4D56FvCvkz+yG5LY82i6gbzn\r\nPMNP+lR1XuRIkGp0+G7c91mUhwTKHhIR2J6B83inAWUS9rw928tBy11PCDrN\r\nTXNjpFgMnVHjlXzarxGB4+G5zkw/5SxKfDOh37ElgOZQNlh7w4FpGA+0oK/6\r\nL4tZueP9WV0xCFeDUPF5+GWez6GIrJIv/cY=\r\n=LUNt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/private-classnames_5.7.0_1652173512448_0.993562015731257"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-05-10T09:05:12.381Z",
+		"5.7.0": "2022-05-10T09:05:12.695Z",
+		"modified": "2022-05-10T09:05:12.899Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.7.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"c717e4d049853ac7990d0303afa96e6a\"",
+			"fetched": 1652750994439
+		}
+	},
+	"_distfiles": {
+		"private-classnames-5.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/private-classnames/-/private-classnames-5.7.0.tgz",
+			"sha": "7ec4c4632b58eb89bfecf67f2bf2a29a54022f6e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"private-classnames-5.7.0.tgz": {
+			"shasum": "7ec4c4632b58eb89bfecf67f2bf2a29a54022f6e"
+		}
+	},
+	"_rev": "2-935a3b64dc391b1c",
+	"_id": "@mui/private-classnames",
+	"readme": "# @mui/private-classnames\n\nReact classnames utils used internally in the other MUI component libraries packages."
+}
