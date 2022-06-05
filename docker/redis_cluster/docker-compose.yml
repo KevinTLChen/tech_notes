@@ -1,0 +1,141 @@
+services:
+    redis-node1:
+        build:
+            context: redis
+        ports:
+            - 7000:7000
+            - 17000:17000
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7000",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-node2:
+        build:
+            context: redis
+        ports:
+            - 7001:7001
+            - 17001:17001
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7001",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-node3:
+        build:
+            context: redis
+        ports:
+            - 7002:7002
+            - 17002:17002
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7002",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-node4:
+        build:
+            context: redis
+        ports:
+            - 7003:7003
+            - 17003:17003
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7003",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-node5:
+        build:
+            context: redis
+        ports:
+            - 7004:7004
+            - 17004:17004
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7004",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-node6:
+        build:
+            context: redis
+        ports:
+            - 7005:7005
+            - 17005:17005
+        restart: always
+        entrypoint:
+            [
+                redis-server,
+                /usr/local/etc/redis/redis.conf,
+                --port,
+                "7005",
+                --cluster-announce-ip,
+                "${ip}"
+            ]
+    redis-cluster-creator:
+        image: redis
+        entrypoint:
+            [
+                /bin/bash,
+                -c,
+                'echo "yes" | redis-cli -a pass.123 --cluster create ${ip}:7000 ${ip}:7001 ${ip}:7002 ${ip}:7003 ${ip}:7004 ${ip}:7005 --cluster-replicas 1'
+            ]
+        depends_on:
+            - redis-node1
+            - redis-node2
+            - redis-node3
+            - redis-node4
+            - redis-node5
+            - redis-node6
+
+# docker-compose
+# build:
+#     context: redis
+# docker image is build using 'redis' sub-directory within Compose file parent folder
+# i.e. put Dockerfile and redis.conf in 'redis' sub-directory
+# Every Redis Cluster node requires two open TCP connections: a Redis TCP port used to serve clients, e.g., 6379, 
+# and second port known as the cluster bus port. By default, the cluster bus port is set by adding 10000 to the data port (e.g., 16379)
+# --cluster-replicas 1 means that we want a replica for every master created
+
+# use entrypoint to start command in container,
+# note that "${ip}" environment variable of --cluster-announce-ip is preserve for injection from docker-compose argument
+# ip=$(ipconfig getifaddr en0) docker-compose up -d
+# $(ipconfig getifaddr en0) can be your host ip directly
+
+# execute command inside container
+# docker exec –it redis_cluster-redis-node1-1 /bin/bash
+# verify redis cluster state is OK
+# redis-cli -a pass.123 -p 7000 cluster info
+# verify redis cluster nodes state
+# redis-cli -a pass.123 -p 7000 cluster nodes
+
+# enter redis cluster interactive mode
+# redis-cli -a pass.123 -p 7000 -c
+# set testkey 123456
+# redis-cli -a pass.123 -h 192.168.0.18 -p 7001 -c
+# get testkey
+
+# https://redis.io/docs/manual/scaling/

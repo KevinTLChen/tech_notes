@@ -1,0 +1,135 @@
+# Generate SSH Key for play
+ssh-keygen -t rsa
+
+# SSH to play-with-docker
+ssh ip172-18-0-16-ca9e6sp4lkkg00e557q0@direct.labs.play-with-docker.com
+export TERM=vt100
+
+# Access the Docker 101 Tutorial
+docker run -dp 80:80 docker/getting-started:pwd
+http://ip172-18-0-41-cacr9a433d5g009nk5ag-80.direct.labs.play-with-docker.com/tutorial/
+
+# Pull docker images
+docker pull node:14.19.3-buster
+docker pull python:3.7.13-bullseye
+docker pull redis:6.2.7-bullseye
+docker pull registry:2.8.1
+docker pull httpd:2.4.53-bullseye
+
+# Create registry folders
+mkdir -p /srv/registry/security
+mkdir -p /srv/registry/data
+
+# Start the registry container
+docker run -d \
+  -p 5000:5000 \
+  --name registry \
+  -v /srv/registry/data:/var/lib/registry \
+  --restart always \
+  registry:2.8.1
+
+# Pull Alpine 3.6 image from official repository
+docker pull alpine:3.6
+
+# Tag local alpine 3.6 image with an additional tag - local repository address
+docker tag alpine:3.6 localhost:5000/alpine:3.6
+
+# Push image to the local repository
+docker push localhost:5000/alpine:3.6
+
+# Remove local images
+docker image remove alpine:3.6
+docker image remove localhost:5000/alpine:3.6
+
+# Pull Alpine 3.6 image from local repository
+docker pull localhost:5000/alpine:3.6
+
+docker image ls
+
+# Generate htpasswd for registry authentication
+docker run --rm -it httpd:2.4.53-bullseye htpasswd -Bbn kevinchen test1234 > /srv/registry/security/htpasswd
+
+# Generating the SSL Certificate
+openssl req -newkey rsa:4096 -nodes -sha256 -keyout /srv/registry/security/registry.key -x509 -days 365 -out /srv/registry/security/registry.crt
+
+# Stop and Remove all old containers
+docker stop $(docker ps -a -q)
+docker rm -f $(docker ps -a -q)
+
+# Start the registry container with authentication
+docker run -d \
+  -p 5000:5000 \
+  --name registry \
+  -v /srv/registry/data:/var/lib/registry \
+  -v /srv/registry/security:/etc/security \
+  -e REGISTRY_HTTP_TLS_CERTIFICATE=/etc/security/registry.crt \
+  -e REGISTRY_HTTP_TLS_KEY=/etc/security/registry.key \
+  -e REGISTRY_AUTH=htpasswd \
+  -e REGISTRY_AUTH_HTPASSWD_REALM="Registry Realm" \
+  -e REGISTRY_AUTH_HTPASSWD_PATH=/etc/security/htpasswd \
+  -e REGISTRY_STORAGE_DELETE_ENABLED=true \
+  --restart always \
+  registry:2.8.1
+
+# Log in to the local registry
+docker login --username kevinchen localhost:5000
+
+# Installing Docker Compose
+curl -L https://github.com/docker/compose/releases/download/v2.5.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
+# joxit/docker-registry-ui
+# docker pull joxit/docker-registry-ui:2.2.1-debian
+
+# Docker Registry UI
+docker pull parabuzzle/craneoperator:2.2.5
+
+# Start Registry Web UI
+docker run -d \
+  -p 8080:80 \
+  --name registry-web \
+  -e REGISTRY_HOST=192.168.0.28 \
+  -e REGISTRY_PORT=5000 \
+  -e REGISTRY_PROTOCOL=https \
+  -e SSL_VERIFY=false \
+  -e ALLOW_REGISTRY_LOGIN=true \
+  -e REGISTRY_ALLOW_DELETE=true \
+  --restart always \
+  parabuzzle/craneoperator:2.2.5
+
+  
+# Build the app's container image
+
+# 1. Create a file named Dockerfile in the same folder as the file package.json
+
+# syntax=docker/dockerfile:1
+FROM node:12-alpine
+RUN apk add --no-cache python2 g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+
+# 2. Go to the app directory with the Dockerfile. Now build the container image using the docker build command. 
+#    The -t flag tags our image, e.g. getting-started
+#    You use the -f flag with docker build to point to a Dockerfile anywhere in your file system
+#    The . at the end of the docker build command tells Docker that it should look for the Dockerfile in the current directory
+
+docker build -t getting-started .
+docker build -f /react-app .
+docker build -t vuexy-react-app:8.1.0 .
+
+# To tag the image into multiple repositories after the build, add multiple -t parameters when you run the build command:
+docker build -t shykes/myapp:1.0.2 -t shykes/myapp:latest .
+
+# 3. Start an app container
+#    The -d flag running the new container in 'detached' mode (in the background)
+#    The -p flag creating a mapping between the host's port 3000 to the container's port 3000. 
+#    Without the port mapping, we wouldn't be able to access the application.
+
+docker run -dp 3000:3000 getting-started
+docker run --name vuexy-react-app -dp 3000:3000 vuexy-react-app:8.1.0
+
+# Use docker exec to Run Commands in a Docker Container
+docker exec -it vuexy-react-app /bin/bash
