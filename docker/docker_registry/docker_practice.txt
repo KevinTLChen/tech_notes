@@ -133,3 +133,7 @@ docker run --name vuexy-react-app -dp 3000:3000 vuexy-react-app:8.1.0
 
 # Use docker exec to Run Commands in a Docker Container
 docker exec -it vuexy-react-app /bin/bash
+
+# Get Oracle Linux with Instant Client 19
+docker pull ghcr.io/oracle/oraclelinux8-instantclient:19
+docker run --name oraclelinux8 -i -t ghcr.io/oracle/oraclelinux8-instantclient:19 /bin/bash
