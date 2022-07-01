@@ -1,0 +1,71 @@
+version: '3.6'
+
+services:
+  drone:
+    container_name: drone
+    image: drone/drone:2.12.1-linux-amd64
+    restart: always
+    environment:
+      # https://docs.drone.io/server/provider/gitea/
+      - DRONE_DATABASE_DRIVER=sqlite3
+      - DRONE_DATABASE_DATASOURCE=/data/database.sqlite
+      - DRONE_GITEA_SERVER=http://192.168.0.100:3000/
+      # http://192.168.0.100:3000/user/settings/applications/oauth2
+      - DRONE_GITEA_CLIENT_ID=7f80cad0-e2b6-4349-8b19-196383ae1e1d
+      - DRONE_GITEA_CLIENT_SECRET=wsNujxNdJOCC5YhnVOmuDbf2CL54FkmhzgT4dziAOHCR
+      # Configures Drone to authenticate when cloning public repositories
+      - DRONE_GIT_ALWAYS_AUTH=false
+      # openssl rand -hex 16
+      - DRONE_RPC_SECRET=c0f8fc69cfd232fcf29bc1ad5f48ba98
+      - DRONE_SERVER_PROTO=http
+      - DRONE_SERVER_HOST=192.168.0.100:3001
+      - DRONE_TLS_AUTOCERT=false
+      - DRONE_REGISTRATION_CLOSED=false # If enabled, a system administrator must create user accounts before the user can login
+      # This should be used to seed the system with an administrative account
+      - DRONE_USER_CREATE=username:gitea_admin,machine:false,admin:true,token:c0f8fc69cfd232fcf29bc1ad5f48ba98
+      - DRONE_LOGS_DEBUG=true
+    ports:
+      - "3001:80"
+      - "9001:9000"
+    networks:
+      - cicd_net
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data:/data
+
+  drone-runner:
+    container_name: drone-runner
+    image: drone/drone-runner-docker:1.8.2-linux-amd64
+    restart: always
+    depends_on:
+      - drone
+    environment:
+      # https://docs.drone.io/runner/docker/installation/linux/
+      # https://docs.drone.io/server/metrics/
+      - DRONE_RPC_PROTO=http
+      - DRONE_RPC_HOST=192.168.0.100:3001
+      - DRONE_RPC_SECRET=c0f8fc69cfd232fcf29bc1ad5f48ba98
+      - DRONE_RUNNER_NAME=my-drone-runner
+      - DRONE_RUNNER_CAPACITY=2
+      # Provides a list of Docker networks that are attached to every pipeline step
+      - DRONE_RUNNER_NETWORKS=cicd_net
+      - DRONE_DEBUG=false
+      - DRONE_TRACE=false
+    ports:
+      - "3002:3000"
+    networks:
+      - cicd_net
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  cicd_net:
+    name: cicd_net
+
+# curl -L https://github.com/harness/drone-cli/releases/latest/download/drone_linux_amd64.tar.gz | tar zx
+# sudo install -t /usr/local/bin drone
+
+# http://192.168.0.100:3001/account
+# export DRONE_SERVER=http://192.168.0.100:3001
+# export DRONE_TOKEN=H6V4N9BGrbYjjAuqmItpOxwOD0SQRBIZ
+# drone info

@@ -1,0 +1,105 @@
+kind: pipeline
+type: docker
+name: web
+
+workspace:
+  path: /tpmp-app
+
+steps:
+  # restore previous build cache from host machine
+  - name: restore-cache
+    image: drillster/drone-volume-cache
+    settings:
+      restore: true
+      mount: # list of folders or files to cache
+        - ./.yarn-cache
+        - ./node_modules
+    volumes: # host machine volume map to which container path
+      - name: cache
+        path: /cache
+
+  # build React App
+  - name: build-react-app
+    image: node:14.19.3-buster
+    commands:
+      - yarn config set registry https://registry.yarnpkg.com -g
+      - yarn config set cache-folder ./.yarn-cache -g
+      - yarn install
+      - yarn run build
+      - pwd
+
+  # build Docker Image (Nginx + ReactJS)
+  - name: build-frontend-image
+    image: docker
+    failure: ignore
+    volumes:
+      - name: sock
+        path: /var/run/docker.sock
+    commands:
+      - docker build -t vuexy-react-app:8.2.0 -f Dockerfile .
+      - docker image prune -f --filter "dangling=true" # clear useless image
+
+  # keep npm-cache and node_modules into host machine
+  - name: rebuild-cache
+    image: drillster/drone-volume-cache
+    settings:
+      rebuild: true
+      mount: # list of folders or files to cache
+        - ./.yarn-cache
+        - ./node_modules
+    volumes: # host machine volume map to which container path
+      - name: cache
+        path: /cache
+
+# host machine volume path
+# - must be absolute path
+volumes:
+  - name: sock
+    host:
+      path: /var/run/docker.sock
+  - name: cache
+    host:
+      path: /home/kevin/docker/drone/cache
+
+# Use the triggers section to limit pipeline execution
+# - master branch, pull_request or push
+trigger:
+  branch:
+    - master
+  event:
+    - pull_request
+    - push
+  status:
+    - success
+    - failure
+
+# Drone automatically creates a temporary volume, known as your workspace, where it clones your repository. 
+# The workspace is the current working directory for each step in your pipeline. 
+# The default workspace path is /drone/src
+# Because the workspace is a volume, filesystem changes are persisted between pipeline steps. 
+# In other words, individual steps can communicate and share state using the filesystem.
+
+# Pipeline steps are defined as a series of shell commands. 
+# - The commands are executed inside the root directory of your git repository. 
+# - The root of your git repository, also called the workspace, is shared by all steps in your pipeline.
+#   This allows file artifacts to persist between steps.
+
+# The 'commands' are executed inside the root directory of your git repository
+# The 'environment' section provides the ability to define environment variables scoped to individual pipeline steps.
+# Host mounts allow you to mount an absolute path on the host machine into a pipeline step.
+
+# The first step is to define the host machine volume path. The host volume path must be an absolute path.
+# volumes:
+# - name: cache
+#   host:
+#     path: /var/lib/cache
+
+# The next step is to configure your pipeline step to mount the named host path into your container. 
+# The container path must also be an absolute path.
+
+# steps:
+# - name: build
+#   image: node
+#   volumes:
+#   - name: cache
+#     path: /tmp/cache
